@@ -39,9 +39,13 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x,y+1,oWall)) && (key_jump)
+// Jumping
+
+canjump -= 1;
+if (canjump > 0) && (key_jump)
 {
 	vsp = -7;
+	canjump = 0;
 }
 
 // Horizontal Collision
@@ -75,6 +79,7 @@ if (!place_meeting(x,y+1,oWall))
 }
 else
 {
+	canjump = 10;
 	if (sprite_index == sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
