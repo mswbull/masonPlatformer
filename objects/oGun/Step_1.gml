@@ -28,7 +28,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 	audio_play_sound(snShot,5,false);
 	with (instance_create_layer(x,y,"Bullets",oBullet))
 	{
-		speed = 25;
+		spd = 25;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
