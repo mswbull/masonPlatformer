@@ -19,7 +19,6 @@
     {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},"order":14,},
-    {"id":{"name":"rThree","path":"rooms/rThree/rThree.yy",},"order":4,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":11,},
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":13,},
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},"order":16,},
@@ -81,7 +80,6 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
-    {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -107,7 +105,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.556",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "masonPlatformer",
