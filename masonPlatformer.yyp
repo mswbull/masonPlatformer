@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":21,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},"order":16,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
