@@ -1,1 +1,1 @@
-target = rMenu;
+target = rEnding;
