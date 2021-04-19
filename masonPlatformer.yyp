@@ -27,6 +27,7 @@
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":10,},
     {"id":{"name":"snShot","path":"sounds/snShot/snShot.yy",},"order":3,},
     {"id":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"order":10,},
+    {"id":{"name":"rThree","path":"rooms/rThree/rThree.yy",},"order":4,},
     {"id":{"name":"sDust","path":"sprites/sDust/sDust.yy",},"order":20,},
     {"id":{"name":"oHitSpark","path":"objects/oHitSpark/oHitSpark.yy",},"order":17,},
     {"id":{"name":"PlayerKill","path":"scripts/PlayerKill/PlayerKill.yy",},"order":3,},
@@ -81,6 +82,7 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
+    {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
