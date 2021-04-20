@@ -35,9 +35,10 @@ else
 // Calculate Movemement
 var move = key_right - key_left;
 
-hsp = move * walksp;
-
-vsp = vsp + grv;
+hsp = (move * walksp) + gunkickx;
+gunkickx = 0;
+vsp = (vsp + grv) + gunkicky;
+gunkicky = 0;
 
 // Jumping
 
