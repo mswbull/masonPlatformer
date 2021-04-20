@@ -35,13 +35,18 @@ else
 // Calculate Movemement
 var move = key_right - key_left;
 
-hsp = move * walksp;
+hsp = (move * walksp) + gunkickx;
+gunkickx = 0;
+vsp = (vsp + grv) + gunkicky;
+gunkicky = 0;
 
-vsp = vsp + grv;
+// Jumping
 
-if (place_meeting(x,y+1,oWall)) && (key_jump)
+canjump -= 1;
+if (canjump > 0) && (key_jump)
 {
 	vsp = -7;
+	canjump = 0;
 }
 
 // Horizontal Collision
@@ -75,10 +80,18 @@ if (!place_meeting(x,y+1,oWall))
 }
 else
 {
+	canjump = 10;
 	if (sprite_index == sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
 		audio_play_sound(snLanding,4,false);
+		repeat(5)
+		{
+			with (instance_create_layer(x,bbox_bottom,"Bullets",oDust))
+			{
+				vsp = 0;	
+			}
+		}
 	}
 	image_speed = 1;
 	if (hsp == 0)

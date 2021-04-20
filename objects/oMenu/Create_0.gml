@@ -1,7 +1,7 @@
 /// @desc GUI/Vars/Menu Setup
 #macro SAVEFILE "Save.sav"
 
-gui_width = display_get_gui_width();
+gui_width = 1024;
 gui_height = display_get_gui_height();
 gui_margin = 32;
 
