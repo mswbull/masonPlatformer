@@ -19,10 +19,10 @@ else
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
-if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (firingdelay < 0)
+if ((mouse_check_button(mb_left)) || (gamepad_button_check(0,gp_shoulderrb)) || gamepad_button_check(0,gp_shoulderr)) && (firingdelay < 0)
 {
 	recoil = 4;
-	firingdelay = 5;
+	firingdelay = 10;
 	ScreenShake(2,10);
 	audio_sound_pitch(snShot,choose(0.8,1.0,1.2));
 	audio_play_sound(snShot,5,false);
@@ -35,7 +35,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 	
 	with (oPlayer)
 	{
-		gunkickx = lengthdir_x(1.5, other.image_angle-180);
+		// gunkickx = lengthdir_x(1.5, other.image_angle-180);
 		gunkicky = lengthdir_y(1.0, other.image_angle-180);
 	}
 }
