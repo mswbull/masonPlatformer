@@ -19,7 +19,7 @@ else
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
-if ((mouse_check_button(mb_left)) || (gamepad_button_check(0,gp_shoulderrb)) || gamepad_button_check(0,gp_shoulderr)) && (firingdelay < 0)
+if ((mouse_check_button(mb_left)) || (gamepad_button_check(0,gp_shoulderrb)) || (gamepad_button_check(0,gp_shoulderr))) && (firingdelay < 0)
 {
 	recoil = 4;
 	firingdelay = 10;
