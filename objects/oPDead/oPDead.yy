@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "sPlayerA",
-    "path": "sprites/sPlayerA/sPlayerA.yy",
+    "name": "sPlayerD",
+    "path": "sprites/sPlayerD/sPlayerD.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "sEnemy",
-    "path": "sprites/sEnemy/sEnemy.yy",
+    "name": "sPlayer",
+    "path": "sprites/sPlayer/sPlayer.yy",
   },
   "persistent": false,
   "parentObjectId": null,
