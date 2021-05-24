@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sGun",
-    "path": "sprites/sGun/sGun.yy",
+    "name": "sBullet",
+    "path": "sprites/sBullet/sBullet.yy",
   },
   "solid": false,
   "visible": true,

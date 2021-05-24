@@ -1,5 +1,5 @@
-x = oPlayer.x+40;
-y = oPlayer.y+25;
+x = oPlayer.x+0;
+y = oPlayer.y+0;
 
 if (oPlayer.controller == 0)
 {
@@ -22,13 +22,13 @@ recoil = max(0,recoil - 1);
 if ((mouse_check_button(mb_left)) || (gamepad_button_check(0,gp_shoulderrb)) || (gamepad_button_check(0,gp_shoulderr))) && (firingdelay < 0)
 {
 	recoil = 4;
-	firingdelay = 10;
+	firingdelay = 25;
 	ScreenShake(2,10);
 	audio_sound_pitch(snShot,choose(0.8,1.0,1.2));
 	audio_play_sound(snShot,5,false);
 	with (instance_create_layer(x,y,"Bullets",oBullet))
 	{
-		spd = 25;
+		spd = 15;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
