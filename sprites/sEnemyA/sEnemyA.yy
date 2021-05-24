@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 43,
-  "bbox_top": 0,
+  "bbox_left": 1,
+  "bbox_right": 67,
+  "bbox_top": 1,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 44,
+  "width": 68,
   "height": 64,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"09a37825-de9d-446e-9f28-2d429f8f1d28","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"09a37825-de9d-446e-9f28-2d429f8f1d28","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":{"name":"09506f87-a8a3-4729-b828-63e3cdc2a200","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"09a37825-de9d-446e-9f28-2d429f8f1d28","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"668f5ce8-a700-4173-b794-5ba6beccb30c","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"668f5ce8-a700-4173-b794-5ba6beccb30c","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":{"name":"09506f87-a8a3-4729-b828-63e3cdc2a200","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"668f5ce8-a700-4173-b794-5ba6beccb30c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"df47853c-ef08-4094-9494-3a0541b0d47a","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"df47853c-ef08-4094-9494-3a0541b0d47a","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":{"name":"85587f0c-65c3-4099-ba57-4f76fdbe7401","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"df47853c-ef08-4094-9494-3a0541b0d47a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a783188f-3324-4948-b5d2-d95f8370b59b","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a783188f-3324-4948-b5d2-d95f8370b59b","path":"sprites/sEnemyA/sEnemyA.yy",},"LayerId":{"name":"85587f0c-65c3-4099-ba57-4f76fdbe7401","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","name":"a783188f-3324-4948-b5d2-d95f8370b59b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ea89b927-e67e-41a8-82e5-59fbd8f73acc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"09a37825-de9d-446e-9f28-2d429f8f1d28","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e7d709ad-15e3-4e89-a179-cabd152a23dc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"668f5ce8-a700-4173-b794-5ba6beccb30c","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1533e0e6-6b48-43de-9327-132d22421ff0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df47853c-ef08-4094-9494-3a0541b0d47a","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"17b68953-9bd0-4e4f-a7b2-168031383869","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a783188f-3324-4948-b5d2-d95f8370b59b","path":"sprites/sEnemyA/sEnemyA.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,7 +58,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 22,
+    "xorigin": 34,
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"09506f87-a8a3-4729-b828-63e3cdc2a200","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85587f0c-65c3-4099-ba57-4f76fdbe7401","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

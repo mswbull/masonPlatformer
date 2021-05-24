@@ -20,7 +20,7 @@ if (done == 0)
 			{
 				done = 1;
 				index_speed = 0;
-				image_index = 7;
+				image_index = 9;
 				alarm[0] = 60;
 			}
 		while (!place_meeting(x,y+sign(vsp),oWall))
