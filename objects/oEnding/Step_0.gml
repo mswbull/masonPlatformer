@@ -9,7 +9,7 @@ text = string_copy(endtext[currentline],1,floor(letters));
 
 // Next Line
 
-if (letters >= length) && (keyboard_check_pressed(vk_anykey))
+if (letters >= length) && (keyboard_check_pressed(vk_anykey)) || (gamepad_button_check_pressed(0,gp_face1))
 {
 	if (currentline+1 == array_length_1d(endtext))
 	{

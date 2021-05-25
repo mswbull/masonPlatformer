@@ -16,7 +16,7 @@ if (menu_control)
 	}
 	if (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0,gp_face1))
 	{
-		menu_x_target = gui_width+200;
+		menu_x_target = gui_width+300;
 		menu_committed = menu_cursor;
 		ScreenShake(4,30);
 		menu_control = false;
@@ -30,7 +30,7 @@ if (menu_control)
 		
 		if (mouse_check_button_pressed(mb_left))
 		{
-			menu_x_target = gui_width+200;
+			menu_x_target = gui_width+300;
 			menu_committed = menu_cursor;
 			ScreenShake(4,30);
 			menu_control = false;
