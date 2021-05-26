@@ -1,2 +1,2 @@
-global.killsthisroom = 0;
 global.coinsthisroom = 0;
+global.killsthisroom = 0;
