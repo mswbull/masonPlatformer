@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":21,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":25,},
     {"id":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},"order":16,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
     {"id":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"order":6,},
@@ -57,6 +58,7 @@
     {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},"order":1,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":12,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
+    {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":25,},
     {"id":{"name":"oSign","path":"objects/oSign/oSign.yy",},"order":13,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
     {"id":{"name":"oDust","path":"objects/oDust/oDust.yy",},"order":18,},
