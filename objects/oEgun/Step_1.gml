@@ -1,5 +1,5 @@
-x = owner.x;
-y = owner.y+25;
+x = owner.x+0;
+y = owner.y+0;
 
 image_xscale = abs(owner.image_xscale);
 image_yscale = abs(owner.image_yscale);
@@ -20,7 +20,7 @@ if (instance_exists(oPlayer))
 				audio_play_sound(snShot,5,false);
 				with (instance_create_layer(x,y,"Bullets",oEbullet))
 				{
-					spd = 10;
+					spd = 5;
 					direction = other.image_angle + random_range(-3,3);
 					image_angle = direction;
 				}

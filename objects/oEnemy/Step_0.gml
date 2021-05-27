@@ -1,6 +1,6 @@
 vsp = vsp + grv;
 
-// Do Not Work of Edges
+// Do Not Walk off Edges
 if (grounded) && (afraidofheights) && (!place_meeting(x+hsp,y+1,oWall))
 {
 	hsp =  -hsp;	
