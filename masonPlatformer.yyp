@@ -32,6 +32,7 @@
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":11,},
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":13,},
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},"order":16,},
+    {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":8,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":7,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":10,},
     {"id":{"name":"snShot","path":"sounds/snShot/snShot.yy",},"order":3,},
@@ -66,11 +67,12 @@
     {"id":{"name":"sCrate","path":"sprites/sCrate/sCrate.yy",},"order":18,},
     {"id":{"name":"sHitSpark","path":"sprites/sHitSpark/sHitSpark.yy",},"order":19,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":12,},
+    {"id":{"name":"rNew","path":"rooms/rNew/rNew.yy",},"order":7,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":2,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"snFoot2","path":"sounds/snFoot2/snFoot2.yy",},"order":1,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
-    {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":0,},
+    {"id":{"name":"rOne_old","path":"rooms/rOne_old/rOne_old.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -92,8 +94,10 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
-    {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
+    {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
+    {"roomId":{"name":"rNew","path":"rooms/rNew/rNew.yy",},},
+    {"roomId":{"name":"rOne_old","path":"rooms/rOne_old/rOne_old.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
