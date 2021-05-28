@@ -71,7 +71,6 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"snFoot2","path":"sounds/snFoot2/snFoot2.yy",},"order":1,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
-    {"id":{"name":"rOne_old","path":"rooms/rOne_old/rOne_old.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -95,7 +94,6 @@
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
     {"roomId":{"name":"rNew","path":"rooms/rNew/rNew.yy",},},
-    {"roomId":{"name":"rOne_old","path":"rooms/rOne_old/rOne_old.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
