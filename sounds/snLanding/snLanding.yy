@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snLanding",
-  "duration": 0.0,
+  "soundFile": "snLanding.wav",
+  "duration": 0.341689,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
