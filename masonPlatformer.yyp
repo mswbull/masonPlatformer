@@ -52,7 +52,6 @@
     {"id":{"name":"snFoot1","path":"sounds/snFoot1/snFoot1.yy",},"order":0,},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":17,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
-    {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":6,},
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"order":15,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
@@ -94,7 +93,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
-    {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
     {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
     {"roomId":{"name":"rNew","path":"rooms/rNew/rNew.yy",},},
     {"roomId":{"name":"rOne_old","path":"rooms/rOne_old/rOne_old.yy",},},
