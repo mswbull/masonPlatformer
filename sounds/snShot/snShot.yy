@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snShot.wav",
-  "duration": 1.173277,
+  "duration": 0.881032,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -84,7 +84,7 @@ else
 	if (sprite_index == sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
-		audio_play_sound(snLanding,4,false);
+		audio_play_sound(snLanding,5,false);
 		repeat(5)
 		{
 			with (instance_create_layer(x,bbox_bottom,"Bullets",oDust))
@@ -100,7 +100,10 @@ else
 	}
 	else 
 	{
-		sprite_index = sPlayerR;	
+		sprite_index = sPlayerR;
+		// audio_sound_pitch(snFoot,choose(0.8,1.0,1.2));
+		// audio_play_sound(snFoot,5,false);
+
 	}
 }
 
