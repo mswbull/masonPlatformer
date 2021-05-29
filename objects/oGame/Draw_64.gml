@@ -1,4 +1,4 @@
-/// @desc Draw Score and Equipped
+/// @desc Draw Score
 
 if (room != oMenu) && (instance_exists(oPlayer)) && (global.coins > 0)
 {
