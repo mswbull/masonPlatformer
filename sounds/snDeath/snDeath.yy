@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snDeath",
-  "duration": 0.0,
+  "soundFile": "snDeath.wav",
+  "duration": 1.786338,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
