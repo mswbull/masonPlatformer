@@ -33,6 +33,7 @@
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sEnemyAltA","path":"sprites/sEnemyAltA/sEnemyAltA.yy",},"order":27,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":8,},
+    {"id":{"name":"fEquipped","path":"fonts/fEquipped/fEquipped.yy",},"order":4,},
     {"id":{"name":"oSignC","path":"objects/oSignC/oSignC.yy",},"order":27,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},"order":14,},
