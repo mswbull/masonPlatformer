@@ -44,6 +44,7 @@
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":10,},
     {"id":{"name":"snShot","path":"sounds/snShot/snShot.yy",},"order":3,},
     {"id":{"name":"oEnemyAlt","path":"objects/oEnemyAlt/oEnemyAlt.yy",},"order":10,},
+    {"id":{"name":"snCollect","path":"sounds/snCollect/snCollect.yy",},"order":12,},
     {"id":{"name":"sDust","path":"sprites/sDust/sDust.yy",},"order":20,},
     {"id":{"name":"oHitSpark","path":"objects/oHitSpark/oHitSpark.yy",},"order":17,},
     {"id":{"name":"PlayerKill","path":"scripts/PlayerKill/PlayerKill.yy",},"order":3,},
