@@ -1,12 +1,16 @@
+/// @desc Collisions and Animations
+
 vsp = vsp + grv;
 
-// Do Not Walk off Edges
+// Do Not Walk Off Edges
+
 if (grounded) && (afraidofheights) && (!place_meeting(x+hsp,y+1,oWall))
 {
 	hsp =  -hsp;	
 }
 
 // Horizontal Collision
+
 if (place_meeting(x+hsp,y,oWall))
 {
 	while (!place_meeting(x+sign(hsp),y,oWall))
@@ -18,6 +22,7 @@ if (place_meeting(x+hsp,y,oWall))
 x = x + hsp;
 
 // Veritcal Collision
+
 if (place_meeting(x,y+vsp,oWall))
 {
 	while (!place_meeting(x,y+sign(vsp),oWall))
@@ -28,7 +33,8 @@ if (place_meeting(x,y+vsp,oWall))
 }
 y = y + vsp;
 
-//Animation
+// Animation
+
 if (!place_meeting(x,y+1,oWall))
 {
 	grounded = false;

@@ -1,3 +1,5 @@
+/// @desc Variables and Ending Text
+
 gunsprite = layer_sprite_get_id("TitleAssets","gGun");
 
 if (global.hasgun == true) && (global.kills > 0)
