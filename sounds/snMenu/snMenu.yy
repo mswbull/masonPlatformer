@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snMenuMove.wav",
+  "soundFile": "snMenu.wav",
   "duration": 0.125,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snMenuMove",
+  "name": "snMenu",
   "tags": [],
   "resourceType": "GMSound",
 }

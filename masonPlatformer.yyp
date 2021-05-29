@@ -36,7 +36,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},"order":14,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":11,},
-    {"id":{"name":"snMenuMove","path":"sounds/snMenuMove/snMenuMove.yy",},"order":11,},
+    {"id":{"name":"snMenu","path":"sounds/snMenu/snMenu.yy",},"order":11,},
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":13,},
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},"order":16,},
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":8,},
