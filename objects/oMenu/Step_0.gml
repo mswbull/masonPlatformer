@@ -1,4 +1,4 @@
-/// @desc Control Menu
+/// @desc Menu Control
 
 menu_x += (menu_x_target - menu_x) / menu_speed;
 

@@ -1,4 +1,4 @@
-/// @desc Move to Next Room
+/// @desc Next Room
 
 with (oPlayer)
 {

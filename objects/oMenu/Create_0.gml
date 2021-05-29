@@ -1,4 +1,5 @@
-/// @desc GUI/Vars/Menu Setup
+/// @desc Menu and Save Game Setup
+
 #macro SAVEFILE "Save.sav"
 
 gui_width = 1024;
