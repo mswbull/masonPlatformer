@@ -1,3 +1,5 @@
+/// @desc Draw White Flash
+
 draw_self();
 
 if (flash > 0)

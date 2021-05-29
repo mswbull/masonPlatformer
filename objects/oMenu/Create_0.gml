@@ -1,4 +1,4 @@
-/// @desc Menu and Save Game Setup
+/// @desc Menu and Save Setup
 
 #macro SAVEFILE "Save.sav"
 

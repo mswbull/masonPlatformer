@@ -1,4 +1,4 @@
-/// @desc Progress the Transition
+/// @desc Progress Transition
 
 if (mode != TRANS_MODE.OFF)
 {
