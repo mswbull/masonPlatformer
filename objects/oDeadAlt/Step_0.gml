@@ -1,3 +1,5 @@
+/// @desc Death Collisions
+
 if (done == 0)
 {
 	vsp = vsp + grv;

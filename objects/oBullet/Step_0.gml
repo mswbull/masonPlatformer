@@ -1,3 +1,7 @@
+/// @desc Bullet Direction and Speed
+
+// Bullet Characteristics
+
 x += lengthdir_x(spd,direction);
 y += lengthdir_y(spd,direction);
 
@@ -11,6 +15,8 @@ if (place_meeting(x,y,pShootable))
 	}
 	instance_destroy();
 }
+
+// Bullet Wall Collision
 
 if (place_meeting(x,y,oWall)) && (image_index != 0) 
 {
