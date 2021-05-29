@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snMenuMove",
-  "duration": 0.0,
+  "soundFile": "snMenuMove.wav",
+  "duration": 0.125,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

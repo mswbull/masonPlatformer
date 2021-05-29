@@ -8,11 +8,13 @@ if (menu_control)
 	{
 		menu_cursor++;
 		if (menu_cursor >= menu_items) menu_cursor = 0;
+		audio_play_sound(snMenuMove,5,false);
 	}
 	if (keyboard_check_pressed(vk_down) || gamepad_button_check_pressed(0,gp_padd))
 	{
 		menu_cursor--;
 		if (menu_cursor < 0) menu_cursor = menu_items-1;
+		audio_play_sound(snMenuMove,5,false);
 	}
 	if (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0,gp_face1))
 	{
@@ -20,7 +22,7 @@ if (menu_control)
 		menu_committed = menu_cursor;
 		ScreenShake(4,30);
 		menu_control = false;
-		audio_play_sound(snDeath,10,false);
+		audio_play_sound(snMenuMove,5,false);
 	}
 	
 	var mouse_y_gui = device_mouse_y_to_gui(0);
@@ -34,7 +36,7 @@ if (menu_control)
 			menu_committed = menu_cursor;
 			ScreenShake(4,30);
 			menu_control = false;
-			audio_play_sound(snDeath,10,false);
+			audio_play_sound(snMenuMove,5,false);
 		}
 	}
 }
