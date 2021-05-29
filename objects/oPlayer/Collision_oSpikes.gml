@@ -1,1 +1,3 @@
+/// @desc Destroy Instance
+
 PlayerKill()

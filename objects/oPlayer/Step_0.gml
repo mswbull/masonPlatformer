@@ -1,4 +1,6 @@
-// Get Player Input
+/// @desc Input, Movement and Collisions 
+
+// Player Input
 
 if (hascontrol)
 {
@@ -33,6 +35,7 @@ else
 }
 
 // Calculate Movemement
+
 var move = key_right - key_left;
 
 hsp = (move * walksp) + gunkickx;
@@ -50,6 +53,7 @@ if (canjump > 0) && (key_jump)
 }
 
 // Horizontal Collision
+
 if (place_meeting(x+hsp,y,oWall))
 {
 	while (!place_meeting(x+sign(hsp),y,oWall))
@@ -61,6 +65,7 @@ if (place_meeting(x+hsp,y,oWall))
 x = x + hsp;
 
 // Veritcal Collision
+
 if (place_meeting(x,y+vsp,oWall))
 {
 	while (!place_meeting(x,y+sign(vsp),oWall))
@@ -71,7 +76,8 @@ if (place_meeting(x,y+vsp,oWall))
 }
 y = y + vsp;
 
-//Animation
+// Animation
+
 if (!place_meeting(x,y+1,oWall))
 {
 	sprite_index = sPlayerA;
@@ -101,9 +107,6 @@ else
 	else 
 	{
 		sprite_index = sPlayerR;
-		// audio_sound_pitch(snFoot,choose(0.8,1.0,1.2));
-		// audio_play_sound(snFoot,5,false);
-
 	}
 }
 

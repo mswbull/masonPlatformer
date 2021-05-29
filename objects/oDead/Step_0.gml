@@ -1,10 +1,11 @@
-/// @desc Death Collisions
+/// @desc Collisions
 
 if (done == 0)
 {
 	vsp = vsp + grv;
 
 	// Horizontal Collision
+	
 	if (place_meeting(x+hsp,y,oWall))
 	{
 		while (!place_meeting(x+sign(hsp),y,oWall))
@@ -16,6 +17,7 @@ if (done == 0)
 	x = x + hsp;
 
 	// Veritcal Collision
+	
 	if (place_meeting(x,y+vsp,oWall))
 	{	
 		if (vsp > 0) 
