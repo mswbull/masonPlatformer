@@ -20,16 +20,16 @@ if (room != oMenu) && (instance_exists(oPlayer)) && (global.kills > 0)
 
 if (room != oMenu) && (instance_exists(oPlayer)) && (global.hasgun == 0)
 {
-	DrawSetText(c_black, fEquipped, fa_left, fa_top);
-	draw_text_transformed(8,12,"Equipped: None", 1,1,0);
+	DrawSetText(c_black, fOSD, fa_left, fa_top);
+	draw_text_transformed(8,45,"Equipped: None", 1,1,0);
 	draw_set_colour(c_white);
-	draw_text_transformed(10,10,"Equipped: None", 1,1,0);
+	draw_text_transformed(10,43,"Equipped: None", 1,1,0);
 }
 
 if (room != oMenu) && (instance_exists(oPlayer)) && (global.hasgun == 1)
 {
-	DrawSetText(c_black, fEquipped, fa_left, fa_top);
-	draw_text_transformed(8,12,"Equipped: Ninja Stars", 1,1,0);
+	DrawSetText(c_black, fOSD, fa_left, fa_top);
+	draw_text_transformed(8,45,"Equipped: Ninja Stars", 1,1,0);
 	draw_set_colour(c_white);
-	draw_text_transformed(10,10,"Equipped: Ninja Stars", 1,1,0);
+	draw_text_transformed(10,43,"Equipped: Ninja Stars", 1,1,0);
 }

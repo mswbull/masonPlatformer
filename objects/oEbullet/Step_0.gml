@@ -1,4 +1,4 @@
-/// @desc Bullet Direction and Speed
+/// @desc Bullet Direction
 
 // Bullet Characteristics
 
