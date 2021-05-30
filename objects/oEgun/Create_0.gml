@@ -1,4 +1,5 @@
-/// @desc Countdown Rate
+/// @desc Variables
 
-countdownrate = 100;
+countdownrate = 150;
 countdown = countdownrate;
+awareness = 500;
