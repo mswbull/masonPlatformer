@@ -11,3 +11,5 @@ global.kills = 0;
 global.killsthisroom = 0;
 cointextscale = 1;
 killtextscale = 1;
+
+skip = 0;
