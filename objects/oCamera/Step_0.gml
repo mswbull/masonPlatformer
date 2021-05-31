@@ -24,8 +24,8 @@ y = clamp(y,view_h_half+buff,room_height-view_h_half-buff);
 
 // Screen Shake
 
-x += random_range(-shake_remain, shake_remain);
-y += random_range(-shake_remain, shake_remain);
+x += random_range(-shake_remain,shake_remain);
+y += random_range(-shake_remain,shake_remain);
 shake_remain = max(0,shake_remain-((1/shake_length)*shake_magnitude));
 
 // Update Camera View

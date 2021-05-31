@@ -108,7 +108,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tTiles",
+  "name": "tTilesForest",
   "tags": [],
   "resourceType": "GMTileSet",
 }

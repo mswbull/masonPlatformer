@@ -42,8 +42,8 @@ if ((mouse_check_button(mb_left)) || (gamepad_button_check(0,gp_shoulderrb)) || 
 	}
 }
 
-x = x - lengthdir_x(recoil, image_angle);
-y = y - lengthdir_y(recoil, image_angle);
+x = x - lengthdir_x(recoil,image_angle);
+y = y - lengthdir_y(recoil,image_angle);
 
 if (image_angle > 90) && (image_angle < 270)
 {
