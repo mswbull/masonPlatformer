@@ -1,4 +1,4 @@
-/// @desc Collect Heart
+/// @desc Collect Heart and Add HP
 
 if (instance_exists(oPlayer))
 	{
