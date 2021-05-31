@@ -10,5 +10,5 @@ draw_sprite(sMarker,0,x,y);
 draw_set_alpha(1);
 
 // Draw Text
-DrawSetText(c_white, fSign, fa_center, fa_top);
+DrawSetText(c_white,fSign,fa_center,fa_top);
 draw_text(x,y-h-border,text_current);
