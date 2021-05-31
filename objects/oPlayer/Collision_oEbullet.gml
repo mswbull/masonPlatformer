@@ -1,12 +1,12 @@
 /// @desc Destroy Instance
 
-if (hp > 0)
+if (global.hp > 0)
 {
-	hp--;
+	global.hp--;
 	with (other) instance_destroy();
 }
 
-if (hp <= 0)
+if (global.hp <= 0)
 {
 	PlayerKill();
 	with (other) instance_destroy();

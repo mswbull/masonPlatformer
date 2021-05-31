@@ -14,8 +14,8 @@ controller = 0;
 
 // Player Health
 
-hp = 3;
-hp_max = hp;
+global.hp = 3;
+global.hp_max = global.hp;
 
 healthbar_width = 100;
 healthbar_height = 12;
