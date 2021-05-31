@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTilesForest",
-    "path": "sprites/sTilesForest/sTilesForest.yy",
+    "name": "sTilesCave",
+    "path": "sprites/sTilesCave/sTilesCave.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -108,7 +108,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tTilesForest",
+  "name": "tTilesCave",
   "tags": [],
   "resourceType": "GMTileSet",
 }

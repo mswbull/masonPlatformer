@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTilesForest",
-    "path": "sprites/sTilesForest/sTilesForest.yy",
+    "name": "sTiles",
+    "path": "sprites/sTiles/sTiles.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
