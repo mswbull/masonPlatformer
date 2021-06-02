@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDoorOpen",
-    "path": "sprites/sDoorOpen/sDoorOpen.yy",
+    "name": "sTrigger",
+    "path": "sprites/sTrigger/sTrigger.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDoorClosed",
-    "path": "sprites/sDoorClosed/sDoorClosed.yy",
+    "name": "sDoorOpen",
+    "path": "sprites/sDoorOpen/sDoorOpen.yy",
   },
   "solid": false,
   "visible": false,
