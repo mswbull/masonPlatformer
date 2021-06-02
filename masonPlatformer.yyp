@@ -78,6 +78,7 @@
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":17,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sFireball","path":"sprites/sFireball/sFireball.yy",},"order":41,},
+    {"id":{"name":"sPlayerH","path":"sprites/sPlayerH/sPlayerH.yy",},"order":45,},
     {"id":{"name":"oCrystal","path":"objects/oCrystal/oCrystal.yy",},"order":30,},
     {"id":{"name":"sDoorOpen","path":"sprites/sDoorOpen/sDoorOpen.yy",},"order":42,},
     {"id":{"name":"tTilesCave","path":"tilesets/tTilesCave/tTilesCave.yy",},"order":1,},
