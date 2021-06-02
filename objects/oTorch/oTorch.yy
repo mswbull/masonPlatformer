@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "sDoorOpen",
-    "path": "sprites/sDoorOpen/sDoorOpen.yy",
+    "name": "sTorch",
+    "path": "sprites/sTorch/sTorch.yy",
   },
   "solid": false,
-  "visible": false,
-  "spriteMaskId": null,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "sTorch",
+    "path": "sprites/sTorch/sTorch.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -20,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oLevelEnd",
+  "name": "oTorch",
   "tags": [],
   "resourceType": "GMObject",
 }

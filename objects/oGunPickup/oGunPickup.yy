@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBullet",
-    "path": "sprites/sBullet/sBullet.yy",
+    "name": "sGunPickup",
+    "path": "sprites/sGunPickup/sGunPickup.yy",
   },
   "solid": false,
   "visible": true,
