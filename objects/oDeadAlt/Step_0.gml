@@ -21,7 +21,7 @@ if (done == 0)
 		if (vsp > 0) 
 			{
 				done = 1;
-				index_speed = 1;
+				index_speed = 0;
 				image_index = 9;
 			}
 		while (!place_meeting(x,y+sign(vsp),oWall))
