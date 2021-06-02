@@ -4,7 +4,7 @@
     "path": "sprites/sDoorOpen/sDoorOpen.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
