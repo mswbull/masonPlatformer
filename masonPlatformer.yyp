@@ -62,6 +62,7 @@
     {"id":{"name":"oHitSpark","path":"objects/oHitSpark/oHitSpark.yy",},"order":17,},
     {"id":{"name":"PlayerKill","path":"scripts/PlayerKill/PlayerKill.yy",},"order":3,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":3,},
+    {"id":{"name":"oDoorOpen","path":"objects/oDoorOpen/oDoorOpen.yy",},"order":34,},
     {"id":{"name":"oExplosion","path":"objects/oExplosion/oExplosion.yy",},"order":28,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":3,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
