@@ -45,7 +45,7 @@ gunkicky = 0;
 
 // Jumping
 
-canjump -= 1;
+canjump -= 1; // Reduce Jump Buffer Every Frame
 if (canjump > 0) && (key_jump)
 {
 	vsp = -7; // Jump Height
@@ -86,7 +86,7 @@ if (!place_meeting(x,y+1,oWall))
 }
 else
 {
-	canjump = 10;
+	canjump = 10; // Jump Buffer on Ground
 	if (sprite_index == sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
