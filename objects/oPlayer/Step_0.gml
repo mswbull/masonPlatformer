@@ -49,6 +49,7 @@ canjump -= 1; // Reduce Jump Buffer Every Frame
 if (canjump > 0) && (key_jump)
 {
 	vsp = -7; // Jump Height
+	if (global.jump = 1) vsp = -10; // Ability Jump Height
 	canjump = 0;
 }
 
