@@ -6,7 +6,7 @@ vsp = vsp + grv;
 
 if (grounded) && (afraidofheights) && (!place_meeting(x+hsp,y+1,oWall))
 {
-	hsp =  -hsp;	
+	hsp =- hsp;	
 }
 
 // Horizontal Collision
@@ -17,7 +17,7 @@ if (place_meeting(x+hsp,y,oWall))
 	{
 		x = x + sign(hsp);
 	}
-	hsp = -hsp;
+	hsp =- hsp;
 }
 x = x + hsp;
 
