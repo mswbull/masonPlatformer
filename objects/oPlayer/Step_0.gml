@@ -111,3 +111,9 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+if (hit >= 1){
+	sprite_index = sPlayerH;
+	image_speed = 1;
+	hit = hit - 1;
+}

@@ -3,6 +3,7 @@
 if (global.hp > 0)
 {
 	global.hp--;
+	hit = 15
 	with (other) instance_destroy();
 }
 
