@@ -48,7 +48,7 @@ gunkicky = 0;
 canjump -= 1;
 if (canjump > 0) && (key_jump)
 {
-	vsp = -7; // Jump
+	vsp = -7; // Jump Height
 	canjump = 0;
 }
 
