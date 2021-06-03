@@ -9,6 +9,7 @@ global.coins = 0;
 global.coinsthisroom = 0;
 global.kills = 0;
 global.killsthisroom = 0;
+global.crystal = 0;
 cointextscale = 1;
 killtextscale = 1;
 

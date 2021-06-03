@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sJump",
-    "path": "sprites/sJump/sJump.yy",
+    "name": "sAbilityJump",
+    "path": "sprites/sAbilityJump/sAbilityJump.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oJump",
+  "name": "oAbilityJump",
   "tags": [],
   "resourceType": "GMObject",
 }
