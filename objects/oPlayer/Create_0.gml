@@ -22,7 +22,3 @@ healthbar_width = 100;
 healthbar_height = 12;
 healthbar_x = 72;
 healthbar_y = 14;
-
-// Glider
-
-global.glider = 0;
