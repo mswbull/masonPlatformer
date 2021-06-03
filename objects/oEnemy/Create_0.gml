@@ -1,4 +1,6 @@
-/// @desc Equip Gun
+/// @desc Variables and Equip Gun
+
+hit = 0;
 
 if (hasweapon)
 {
