@@ -1,4 +1,4 @@
-/// @desc Create Wall
+/// @desc Add to Wall Layer
 
 mywall = instance_create_layer(x,y,layer,oWall);
 with (mywall)

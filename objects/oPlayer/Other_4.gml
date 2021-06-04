@@ -1,10 +1,12 @@
-/// @desc Auto Save
+/// @desc Sound and Save
 
-audio_sound_gain(snMusic,0.2,0);
+// Music and Background Sound 
+
+audio_sound_gain(snMusic,0.5,0);
 audio_play_sound(snBackground,5,true);
-audio_sound_gain(snBackground,0.1,0);
+audio_sound_gain(snBackground,0.2,0);
 
-// Overwrite Old Save
+// Overwrite Existing Save
 
 if (file_exists(SAVEFILE)) file_delete(SAVEFILE);
 

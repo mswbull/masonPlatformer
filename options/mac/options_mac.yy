@@ -3,7 +3,7 @@
   "option_mac_app_id": "com.lifeintech.ninjacaves",
   "option_mac_version": "1.0.0.0",
   "option_mac_output_dir": "~/Ninja Caves",
-  "option_mac_team_id": "",
+  "option_mac_team_id": "HEYTXBF6EK",
   "option_mac_signing_identity": "Developer ID Application:",
   "option_mac_copyright": "Matthew Bull",
   "option_mac_splash_png": "${base_options_dir}/mac/splash/splash.png",

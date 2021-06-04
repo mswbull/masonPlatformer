@@ -32,8 +32,8 @@
     {"propertyId":{"name":"hp","path":"objects/pShootable/pShootable.yy",},"objectId":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Room Objects",
+    "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCrate",

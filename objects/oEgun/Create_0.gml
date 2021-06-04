@@ -1,3 +1,5 @@
+/// @desc Variables
+
 countdownrate = 100;
 countdown = countdownrate;
-// if (global.hasgun == false) instance_destroy();
+awareness = 500;

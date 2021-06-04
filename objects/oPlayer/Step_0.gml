@@ -1,4 +1,6 @@
-// Get Player Input
+/// @desc Input, Movement and Collisions 
+
+// Player Input
 
 if (hascontrol)
 {
@@ -33,6 +35,7 @@ else
 }
 
 // Calculate Movemement
+
 var move = key_right - key_left;
 
 hsp = (move * walksp) + gunkickx;
@@ -42,14 +45,16 @@ gunkicky = 0;
 
 // Jumping
 
-canjump -= 1;
+canjump -= 1; // Reduce Jump Buffer Every Frame
 if (canjump > 0) && (key_jump)
 {
-	vsp = -7;
+	vsp = -7; // Jump Height
+	if (global.jump = 1) vsp = -10; // Ability Jump Height
 	canjump = 0;
 }
 
 // Horizontal Collision
+
 if (place_meeting(x+hsp,y,oWall))
 {
 	while (!place_meeting(x+sign(hsp),y,oWall))
@@ -61,6 +66,7 @@ if (place_meeting(x+hsp,y,oWall))
 x = x + hsp;
 
 // Veritcal Collision
+
 if (place_meeting(x,y+vsp,oWall))
 {
 	while (!place_meeting(x,y+sign(vsp),oWall))
@@ -71,7 +77,8 @@ if (place_meeting(x,y+vsp,oWall))
 }
 y = y + vsp;
 
-//Animation
+// Animation
+
 if (!place_meeting(x,y+1,oWall))
 {
 	sprite_index = sPlayerA;
@@ -80,7 +87,7 @@ if (!place_meeting(x,y+1,oWall))
 }
 else
 {
-	canjump = 10;
+	canjump = 10; // Jump Buffer on Ground
 	if (sprite_index == sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
@@ -101,10 +108,13 @@ else
 	else 
 	{
 		sprite_index = sPlayerR;
-		// audio_sound_pitch(snFoot,choose(0.8,1.0,1.2));
-		// audio_play_sound(snFoot,5,false);
-
 	}
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+if (hit >= 1){
+	sprite_index = sPlayerH;
+	image_speed = 1;
+	hit = hit - 1;
+}

@@ -1,10 +1,12 @@
-/// @desc Move to Next Room
+/// @desc Next Room
 
-with (oPlayer)
-{
-	if (hascontrol)
+if (global.crystal == 1){
+	with (oPlayer)
 	{
-		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,other.target);
+		if (hascontrol)
+		{
+			hascontrol = false;
+			SlideTransition(TRANS_MODE.GOTO,other.target);
+		}
 	}
 }

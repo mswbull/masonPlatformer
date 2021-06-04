@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBullet",
-    "path": "sprites/sBullet/sBullet.yy",
+    "name": "sGunPickup",
+    "path": "sprites/sGunPickup/sGunPickup.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Gun and Bullet",
+    "path": "folders/Objects/Gun and Bullet.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGunPickup",

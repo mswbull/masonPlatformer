@@ -1,3 +1,5 @@
+/// @desc Player and Text Progression
+
 //Move Player Towards Centre
 
 layer_x("TitleAssets", min(layer_get_x("TitleAssets")+1,RES_W * 0.5 - 32));

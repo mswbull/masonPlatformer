@@ -1,3 +1,5 @@
+/// @desc Variable
+
 spd = 0.25;
 letters = 0;
 text = "Test Strong!\nSecond Line!";
