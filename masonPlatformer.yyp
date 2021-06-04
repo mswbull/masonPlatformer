@@ -81,6 +81,7 @@
     {"id":{"name":"sPlayerH","path":"sprites/sPlayerH/sPlayerH.yy",},"order":3,},
     {"id":{"name":"oCrystal","path":"objects/oCrystal/oCrystal.yy",},"order":3,},
     {"id":{"name":"sDoorOpen","path":"sprites/sDoorOpen/sDoorOpen.yy",},"order":5,},
+    {"id":{"name":"rTraining","path":"rooms/rTraining/rTraining.yy",},"order":11,},
     {"id":{"name":"tTilesCave","path":"tilesets/tTilesCave/tTilesCave.yy",},"order":1,},
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"order":2,},
     {"id":{"name":"sSignC","path":"sprites/sSignC/sSignC.yy",},"order":12,},
@@ -129,6 +130,7 @@
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
     {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
     {"roomId":{"name":"rTemplate","path":"rooms/rTemplate/rTemplate.yy",},},
+    {"roomId":{"name":"rTraining","path":"rooms/rTraining/rTraining.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
