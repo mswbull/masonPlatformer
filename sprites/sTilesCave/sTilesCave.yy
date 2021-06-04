@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Backgrounds and Tiles",
+    "path": "folders/Sprites/Backgrounds and Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTilesCave",

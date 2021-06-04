@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Game Setup",
+    "path": "folders/Objects/Game Setup.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGame",

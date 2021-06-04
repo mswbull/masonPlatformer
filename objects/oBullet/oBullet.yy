@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Gun and Bullet",
+    "path": "folders/Objects/Gun and Bullet.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBullet",

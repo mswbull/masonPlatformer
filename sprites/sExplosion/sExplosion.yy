@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room Sprites",
+    "path": "folders/Sprites/Room Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sExplosion",

@@ -26,8 +26,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Room Objects",
+    "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSignC",
