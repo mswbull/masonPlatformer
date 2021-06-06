@@ -8,7 +8,7 @@ if (hascontrol)
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
-	key_crouch = keyboard_check(ord("S"));
+	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 	if (key_left) || (key_right) || (key_jump) || (key_crouch)
 	{
@@ -120,6 +120,13 @@ if (hsp == 0) && (key_crouch = 1)
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+if (global.glide = 1 && keyboard_check(ord("Q"))) {
+	grv = 0.1;
+	vsp = -3;
+	sprite_index = sPlayerH;
+	image_speed = 1;
+}
 
 if (hit >= 1){
 	sprite_index = sPlayerH;
