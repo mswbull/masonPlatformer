@@ -8,8 +8,9 @@ if (hascontrol)
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
+	key_crouch = keyboard_check(ord("S"));
 
-	if (key_left) || (key_right) || (key_jump)
+	if (key_left) || (key_right) || (key_jump) || (key_crouch)
 	{
 		controller = 0;
 	}
@@ -32,6 +33,7 @@ else
 	key_right = 0;
 	key_left = 0;
 	key_jump = 0;
+	key_crouch = 0;
 }
 
 // Calculate Movemement
@@ -88,7 +90,7 @@ if (!place_meeting(x,y+1,oWall))
 else
 {
 	canjump = 10; // Jump Buffer on Ground
-	if (sprite_index == sPlayerA) 
+	if (sprite_index = sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
 		audio_play_sound(snLanding,5,false);
@@ -109,6 +111,12 @@ else
 	{
 		sprite_index = sPlayerR;
 	}
+}
+
+if (hsp == 0) && (key_crouch = 1)
+{
+	sprite_index = sPlayerC;
+	mask_index = sPlayerC;
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
