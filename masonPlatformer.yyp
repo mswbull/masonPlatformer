@@ -42,6 +42,7 @@
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sEnemyAltA","path":"sprites/sEnemyAltA/sEnemyAltA.yy",},"order":3,},
     {"id":{"name":"sBackgroundCave","path":"sprites/sBackgroundCave/sBackgroundCave.yy",},"order":0,},
+    {"id":{"name":"sAbilityGlide","path":"sprites/sAbilityGlide/sAbilityGlide.yy",},"order":18,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
     {"id":{"name":"fOSD","path":"fonts/fOSD/fOSD.yy",},"order":4,},
     {"id":{"name":"oAbilityJump","path":"objects/oAbilityJump/oAbilityJump.yy",},"order":0,},

@@ -1,4 +1,4 @@
-/// @desc Float Animation
+/// @desc Animation
 
 image_speed = 0.5;
 
