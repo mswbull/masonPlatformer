@@ -135,18 +135,20 @@ if (hit >= 1){
 
 // Abilities
 
-if (global.jump = 1) && (canjump > 0) && (key_ability) {
+if (global.jump <= 1) && (canjump > 0) && (key_ability)  {
 	vsp = -10;
 	canjump = 0;
+	global.jump = global.jump - 1;
+}
+
+if (global.speed = 1) && (key_ability) {
+	walksp = 8;
+	image_speed = 1.5;
 }
 
 if (global.glide = 1) && (key_ability) {
 	grv = 0.1;
 	vsp = -3;
-	sprite_index = sPlayerH;
+	sprite_index = sPlayerG;
 	image_speed = 1;
-}
-
-if (global.run = 1) && (key_ability) {
-	walksp = 8;
 }

@@ -26,5 +26,5 @@ healthbar_y = 14;
 // Abilities
 
 global.jump = 0;
+global.speed = 0;
 global.glide = 0;
-global.run = 0;

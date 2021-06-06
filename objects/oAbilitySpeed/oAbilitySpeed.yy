@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sAbilityJump",
-    "path": "sprites/sAbilityJump/sAbilityJump.yy",
+    "name": "sAbilitySpeed",
+    "path": "sprites/sAbilitySpeed/sAbilitySpeed.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAbilityRun",
+  "name": "oAbilitySpeed",
   "tags": [],
   "resourceType": "GMObject",
 }
