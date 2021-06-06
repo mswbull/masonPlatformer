@@ -9,8 +9,9 @@ if (hascontrol)
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
 	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	key_glide = keyboard_check(ord("Q"));
 
-	if (key_left) || (key_right) || (key_jump) || (key_crouch)
+	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_glide)
 	{
 		controller = 0;
 	}
@@ -27,6 +28,12 @@ if (hascontrol)
 		key_jump = 	1;
 		controller = 1;
 	}
+	if (gamepad_button_check_pressed(0,gp_face3))
+	{
+		key_glide = 1;
+		controller = 1;
+	}
+		
 }
 else
 {
@@ -121,7 +128,7 @@ if (hsp == 0) && (key_crouch = 1)
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (global.glide = 1 && keyboard_check(ord("Q"))) {
+if (global.glide = 1 && key_glide) {
 	grv = 0.1;
 	vsp = -3;
 	sprite_index = sPlayerH;
