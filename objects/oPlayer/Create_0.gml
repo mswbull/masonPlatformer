@@ -27,3 +27,4 @@ healthbar_y = 14;
 
 global.jump = 0;
 global.glide = 0;
+global.run = 0;

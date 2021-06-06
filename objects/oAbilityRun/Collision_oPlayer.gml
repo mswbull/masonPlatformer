@@ -1,8 +1,8 @@
-/// @desc Collect Glide Abilty
+/// @desc Collect Run Abilty
 
 if (instance_exists(oPlayer))
 	{
 		audio_play_sound(snCollect,5,false);
-		global.glide = 1;
+		global.run = 1;
 	}
 instance_destroy();

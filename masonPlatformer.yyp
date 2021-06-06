@@ -27,6 +27,7 @@
     {"id":{"name":"sEnemyAltD","path":"sprites/sEnemyAltD/sEnemyAltD.yy",},"order":4,},
     {"id":{"name":"oEnding","path":"objects/oEnding/oEnding.yy",},"order":1,},
     {"id":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},"order":5,},
+    {"id":{"name":"oAbilityRun","path":"objects/oAbilityRun/oAbilityRun.yy",},"order":17,},
     {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},"order":13,},
     {"id":{"name":"sEnemyR","path":"sprites/sEnemyR/sEnemyR.yy",},"order":7,},
     {"id":{"name":"rTraining","path":"rooms/rTraining/rTraining.yy",},"order":10,},

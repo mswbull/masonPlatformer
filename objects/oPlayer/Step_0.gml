@@ -4,14 +4,13 @@
 
 if (hascontrol)
 {
-
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
 	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
-	key_glide = keyboard_check(ord("Q"));
+	key_ability = keyboard_check(ord("Q"));
 
-	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_glide)
+	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_ability)
 	{
 		controller = 0;
 	}
@@ -28,12 +27,12 @@ if (hascontrol)
 		key_jump = 	1;
 		controller = 1;
 	}
+	
 	if (gamepad_button_check_pressed(0,gp_face3))
 	{
-		key_glide = 1;
+		key_ability = 1;
 		controller = 1;
 	}
-		
 }
 else
 {
@@ -41,6 +40,7 @@ else
 	key_left = 0;
 	key_jump = 0;
 	key_crouch = 0;
+	key_ability = 0;
 }
 
 // Calculate Movemement
@@ -58,7 +58,6 @@ canjump -= 1; // Reduce Jump Buffer Every Frame
 if (canjump > 0) && (key_jump)
 {
 	vsp = -7; // Jump Height
-	if (global.jump = 1) vsp = -10; // Ability Jump Height
 	canjump = 0;
 }
 
@@ -128,15 +127,26 @@ if (hsp == 0) && (key_crouch = 1)
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (global.glide = 1 && key_glide) {
+if (hit >= 1){
+	sprite_index = sPlayerH;
+	image_speed = 1;
+	hit = hit - 1;
+}
+
+// Abilities
+
+if (global.jump = 1) && (canjump > 0) && (key_ability) {
+	vsp = -10;
+	canjump = 0;
+}
+
+if (global.glide = 1) && (key_ability) {
 	grv = 0.1;
 	vsp = -3;
 	sprite_index = sPlayerH;
 	image_speed = 1;
 }
 
-if (hit >= 1){
-	sprite_index = sPlayerH;
-	image_speed = 1;
-	hit = hit - 1;
+if (global.run = 1) && (key_ability) {
+	walksp = 8;
 }
