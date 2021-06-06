@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sAbilityJump",
-    "path": "sprites/sAbilityJump/sAbilityJump.yy",
+    "name": "sAbilityGlide",
+    "path": "sprites/sAbilityGlide/sAbilityGlide.yy",
   },
   "solid": false,
   "visible": true,
