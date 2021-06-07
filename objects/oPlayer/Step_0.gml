@@ -4,12 +4,13 @@
 
 if (hascontrol)
 {
-
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
+	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	key_ability = keyboard_check(ord("Q"));
 
-	if (key_left) || (key_right) || (key_jump)
+	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_ability)
 	{
 		controller = 0;
 	}
@@ -26,12 +27,20 @@ if (hascontrol)
 		key_jump = 	1;
 		controller = 1;
 	}
+	
+	if (gamepad_button_check_pressed(0,gp_face3))
+	{
+		key_ability = 1;
+		controller = 1;
+	}
 }
 else
 {
 	key_right = 0;
 	key_left = 0;
 	key_jump = 0;
+	key_crouch = 0;
+	key_ability = 0;
 }
 
 // Calculate Movemement
@@ -48,8 +57,8 @@ gunkicky = 0;
 canjump -= 1; // Reduce Jump Buffer Every Frame
 if (canjump > 0) && (key_jump)
 {
+	grv = 0.3;
 	vsp = -7; // Jump Height
-	if (global.jump = 1) vsp = -10; // Ability Jump Height
 	canjump = 0;
 }
 
@@ -88,7 +97,7 @@ if (!place_meeting(x,y+1,oWall))
 else
 {
 	canjump = 10; // Jump Buffer on Ground
-	if (sprite_index == sPlayerA) 
+	if (sprite_index = sPlayerA) 
 	{
 		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
 		audio_play_sound(snLanding,5,false);
@@ -111,10 +120,36 @@ else
 	}
 }
 
+if (hsp == 0) && (key_crouch = 1)
+{
+	sprite_index = sPlayerC;
+	mask_index = sPlayerC;
+}
+
 if (hsp != 0) image_xscale = sign(hsp);
 
 if (hit >= 1){
 	sprite_index = sPlayerH;
 	image_speed = 1;
 	hit = hit - 1;
+}
+
+// Abilities
+
+if (global.jump = 1) && (canjump > 0) && (key_ability)  {
+	grv = 0.3;
+	vsp = -10;
+	canjump = 0;
+}
+
+if (global.speed = 1) {
+	walksp = 8;
+	image_speed = 1.5;
+}
+
+if (global.glide = 1) && (key_ability) {
+	grv = 0.1;
+	vsp = -3;
+	sprite_index = sPlayerG;
+	image_speed = 1;
 }
