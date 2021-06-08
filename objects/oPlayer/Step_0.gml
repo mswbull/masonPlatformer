@@ -55,7 +55,7 @@ gunkicky = 0;
 // Jumping
 
 canjump -= 1; // Reduce Jump Buffer Every Frame
-if (canjump > 0) && (key_jump)
+if (global.jump = 0) && (canjump > 0) && (key_jump)
 {
 	grv = 0.3;
 	vsp = -7; // Jump Height
@@ -136,10 +136,15 @@ if (hit >= 1){
 
 // Abilities
 
-if (global.jump = 1) && (canjump > 0) && (key_ability)  {
+if (global.jump = 1) && (canjump > 0) && (key_jump)  {
 	grv = 0.3;
 	vsp = -10;
 	canjump = 0;
+}
+
+if (global.speed = 0) {
+	walksp = 4;
+	image_speed = 1;
 }
 
 if (global.speed = 1) {
