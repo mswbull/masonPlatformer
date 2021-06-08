@@ -224,7 +224,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oFall","path":"objects/oFall/oFall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3008.0,"y":352.0,"resourceVersion":"1.0","name":"inst_DFF1BAB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oFall","path":"objects/oFall/oFall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3040.0,"y":352.0,"resourceVersion":"1.0","name":"inst_5125481A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oDoorOpen","path":"objects/oDoorOpen/oDoorOpen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3968.0,"y":416.0,"resourceVersion":"1.0","name":"inst_77C34452","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oAbilityJump","path":"objects/oAbilityJump/oAbilityJump.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2656.0,"y":736.0,"resourceVersion":"1.0","name":"inst_2DA16B72","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"text","path":"objects/oSign/oSign.yy",},"objectId":{"name":"oSign","path":"objects/oSign/oSign.yy",},"value":"\"Collect the crystal to proceed!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oSign","path":"objects/oSign/oSign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":896.0,"resourceVersion":"1.0","name":"inst_D5D21C8","tags":[],"resourceType":"GMRInstance",},
@@ -1337,7 +1336,6 @@
     {"name":"inst_5125481A","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_7E1B9731","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_77C34452","path":"rooms/rTwo/rTwo.yy",},
-    {"name":"inst_2DA16B72","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_D5D21C8","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_A441780","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_59CD3AB6","path":"rooms/rTwo/rTwo.yy",},
