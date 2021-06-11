@@ -8,7 +8,7 @@ if (hascontrol)
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space);
 	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
-	key_climbup = keyboard_check(ord("W"));
+	key_climbup = keyboard_check(vk_up) || keyboard_check(ord("W"));
 	key_climbdown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 	key_ability = keyboard_check(ord("Q"));
 
@@ -67,7 +67,7 @@ if (place_meeting(x,y,oLadder))
 		vsp = 3;
 	}
 }
-else{
+else {
 	grv = 0.3;	
 }
 
@@ -122,14 +122,14 @@ else
 		audio_play_sound(snLanding,5,false);
 		repeat(5)
 		{
-			with (instance_create_layer(x,bbox_bottom,"Bullets",oDust))
+			with (instance_create_layer(x,bbox_bottom,"Player",oDust))
 			{
 				vsp = 0;	
 			}
 		}
 	}
 	image_speed = 1;
-	if (hsp == 0) && (!place_meeting(x,y,oLadder))
+	if (hsp == 0)
 	{
 		sprite_index = sPlayer;
 	}
@@ -139,16 +139,16 @@ else
 	}
 }
 
-if (hsp == 0) && (key_crouch = 1)
-{
-	sprite_index = sPlayerC;
-	mask_index = sPlayerC;
-}
-
-if (place_meeting(x,y,oLadder)) && (key_climbup = 1) || (key_climbdown = 1)
+if (hsp == 0) && (place_meeting(x,y,oLadder)) && (!place_meeting(x,y+1,oWall)) && (key_climbup) || (key_climbdown)
 {
 	sprite_index = sPlayerCl;
 	image_speed = 1;
+}
+
+if (place_meeting(x,y+1,oWall)) && (key_crouch)
+{
+	sprite_index = sPlayerC;
+	mask_index = sPlayerC;
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
