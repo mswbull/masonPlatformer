@@ -60,10 +60,10 @@ if (place_meeting(x,y,oLadder))
 {
 	grv = 0;
 	vsp = 0;
-	if (place_meeting(x,y,oLadder)) && (key_climbup) {
+	if (key_climbup) {
 		vsp = -3;
 	}
-	if (place_meeting(x,y,oLadder)) && (key_climbdown) {
+	if (key_climbdown) {
 		vsp = 3;
 	}
 }
