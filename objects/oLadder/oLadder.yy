@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sFall",
-    "path": "sprites/sFall/sFall.yy",
+    "name": "sLadder",
+    "path": "sprites/sLadder/sLadder.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
