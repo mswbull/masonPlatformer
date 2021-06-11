@@ -62,6 +62,13 @@ if (global.jump = 0) && (canjump > 0) && (key_jump)
 	canjump = 0;
 }
 
+// Ladder
+
+if (place_meeting(x,y,oLadder))
+{
+	
+}
+
 // Horizontal Collision
 
 if (place_meeting(x+hsp,y,oWall))
