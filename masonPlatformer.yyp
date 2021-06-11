@@ -99,6 +99,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":9,},
     {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},"order":1,},
+    {"id":{"name":"sPlayerCl","path":"sprites/sPlayerCl/sPlayerCl.yy",},"order":11,},
     {"id":{"name":"sHealthBar","path":"sprites/sHealthBar/sHealthBar.yy",},"order":6,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":4,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},

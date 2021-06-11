@@ -107,7 +107,7 @@ y = y + vsp;
 
 // Animation
 
-if (!place_meeting(x,y+1,oWall))
+if (!place_meeting(x,y+1,oWall)) && (!place_meeting(x,y,oLadder))
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;
@@ -129,7 +129,7 @@ else
 		}
 	}
 	image_speed = 1;
-	if (hsp == 0)
+	if (hsp == 0) && (!place_meeting(x,y,oLadder))
 	{
 		sprite_index = sPlayer;
 	}
@@ -145,9 +145,15 @@ if (hsp == 0) && (key_crouch = 1)
 	mask_index = sPlayerC;
 }
 
+if (place_meeting(x,y,oLadder)) && (key_climbup = 1) || (key_climbdown = 1)
+{
+	sprite_index = sPlayerCl;
+	image_speed = 1;
+}
+
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (hit >= 1){
+if (hit >= 1) {
 	sprite_index = sPlayerH;
 	image_speed = 1;
 	hit = hit - 1;
