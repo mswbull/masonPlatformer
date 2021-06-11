@@ -8,10 +8,11 @@ if (hascontrol)
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space);
 	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
-	key_climb = keyboard_check(ord("W"));
+	key_climbup = keyboard_check(ord("W"));
+	key_climbdown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 	key_ability = keyboard_check(ord("Q"));
 
-	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_climb) || (key_ability)
+	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_climbup) || (key_climbdown) || (key_ability)
 	{
 		controller = 0;
 	}
@@ -53,34 +54,32 @@ gunkickx = 0;
 vsp = (vsp + grv) + gunkicky;
 gunkicky = 0;
 
-// Jumping
+// Climbing
 
 if (place_meeting(x,y,oLadder))
 {
 	grv = 0;
 	vsp = 0;
-	canjump = 1;
-	
-	if (key_climb) {
+	if (place_meeting(x,y,oLadder)) && (key_climbup) {
 		vsp = -3;
 	}
-	if (key_crouch) {
+	if (place_meeting(x,y,oLadder)) && (key_climbdown) {
 		vsp = 3;
 	}
 }
-else {
-	canjump -= 1; // Reduce Jump Buffer Every Frame
-	if (global.jump = 0) && (canjump > 0) && (key_jump)
-	{
-		grv = 0.3;
-		vsp = -7; // Jump Height
-		canjump = 0;
-	}
+else{
+	grv = 0.3;	
 }
 
-// Ladder
+// Jump
 
-
+canjump -= 1; // Reduce Jump Buffer Every Frame
+if (global.jump = 0) && (canjump > 0) && (key_jump)
+{
+	grv = 0.3;
+	vsp = -7; // Jump Height
+	canjump = 0;
+}
 
 // Horizontal Collision
 
