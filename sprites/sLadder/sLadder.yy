@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_left": 12,
+  "bbox_right": 51,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -103,12 +103,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"88a17240-95ed-4cf0-8f59-f881ba4afe31","path":"sprites/sFall/sFall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88a17240-95ed-4cf0-8f59-f881ba4afe31","path":"sprites/sFall/sFall.yy",},"LayerId":{"name":"c7527ca1-9e0d-4049-890c-09794d6d9b07","path":"sprites/sFall/sFall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sFall","path":"sprites/sFall/sFall.yy",},"resourceVersion":"1.0","name":"88a17240-95ed-4cf0-8f59-f881ba4afe31","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b71fba97-6185-4fe7-a8b6-63f246fc596f","path":"sprites/sLadder/sLadder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b71fba97-6185-4fe7-a8b6-63f246fc596f","path":"sprites/sLadder/sLadder.yy",},"LayerId":{"name":"d7e5a049-a7f7-49ca-81fe-ef907ee765ac","path":"sprites/sLadder/sLadder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},"resourceVersion":"1.0","name":"b71fba97-6185-4fe7-a8b6-63f246fc596f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sFall","path":"sprites/sFall/sFall.yy",},
+    "spriteId": {"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -120,7 +120,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"38e07ea9-5822-4c8d-995f-9f5fddcad1ff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88a17240-95ed-4cf0-8f59-f881ba4afe31","path":"sprites/sFall/sFall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c41a4439-440c-48a1-b837-0f857578ca0e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b71fba97-6185-4fe7-a8b6-63f246fc596f","path":"sprites/sLadder/sLadder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -137,14 +137,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sFall","path":"sprites/sFall/sFall.yy",},
+    "parent": {"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},
     "resourceVersion": "1.3",
-    "name": "sFall",
+    "name": "sLadder",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c7527ca1-9e0d-4049-890c-09794d6d9b07","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d7e5a049-a7f7-49ca-81fe-ef907ee765ac","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -152,7 +152,7 @@
     "path": "folders/Sprites/Room Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sFall",
+  "name": "sLadder",
   "tags": [],
   "resourceType": "GMSprite",
 }

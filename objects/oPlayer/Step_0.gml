@@ -6,11 +6,13 @@ if (hascontrol)
 {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
+	key_jump = keyboard_check_pressed(vk_space);
 	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	key_climbup = keyboard_check(vk_up) || keyboard_check(ord("W"));
+	key_climbdown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 	key_ability = keyboard_check(ord("Q"));
 
-	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_ability)
+	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_climbup) || (key_climbdown) || (key_ability)
 	{
 		controller = 0;
 	}
@@ -52,10 +54,29 @@ gunkickx = 0;
 vsp = (vsp + grv) + gunkicky;
 gunkicky = 0;
 
-// Jumping
+// Climbing
+
+if (place_meeting(x,y,oLadder))
+{
+	climbing = 1;
+	grv = 0;
+	vsp = 0;
+	if (key_climbup) {
+		vsp = -3;
+	}
+	if (key_climbdown) {
+		vsp = 3;
+	}
+}
+else {
+	climbing = 0;
+	grv = 0.3;	
+}
+
+// Jump
 
 canjump -= 1; // Reduce Jump Buffer Every Frame
-if (canjump > 0) && (key_jump)
+if (global.jump = 0) && (canjump > 0) && (key_jump)
 {
 	grv = 0.3;
 	vsp = -7; // Jump Height
@@ -88,7 +109,7 @@ y = y + vsp;
 
 // Animation
 
-if (!place_meeting(x,y+1,oWall))
+if (!place_meeting(x,y+1,oWall)) && (!place_meeting(x,y-1,oLadder))
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;
@@ -103,13 +124,14 @@ else
 		audio_play_sound(snLanding,5,false);
 		repeat(5)
 		{
-			with (instance_create_layer(x,bbox_bottom,"Bullets",oDust))
+			with (instance_create_layer(x,bbox_bottom,"Player",oDust))
 			{
 				vsp = 0;	
 			}
 		}
 	}
 	image_speed = 1;
+	
 	if (hsp == 0)
 	{
 		sprite_index = sPlayer;
@@ -120,7 +142,12 @@ else
 	}
 }
 
-if (hsp == 0) && (key_crouch = 1)
+if (climbing = 1) && (!place_meeting(x,y+1,oWall))
+{
+	sprite_index = sPlayerCl;
+}
+
+if (hsp == 0) && (place_meeting(x,y+1,oWall)) && (key_crouch)
 {
 	sprite_index = sPlayerC;
 	mask_index = sPlayerC;
@@ -128,7 +155,7 @@ if (hsp == 0) && (key_crouch = 1)
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (hit >= 1){
+if (hit >= 1) {
 	sprite_index = sPlayerH;
 	image_speed = 1;
 	hit = hit - 1;
@@ -136,10 +163,15 @@ if (hit >= 1){
 
 // Abilities
 
-if (global.jump = 1) && (canjump > 0) && (key_ability)  {
+if (global.jump = 1) && (canjump > 0) && (key_jump)  {
 	grv = 0.3;
 	vsp = -10;
 	canjump = 0;
+}
+
+if (global.speed = 0) {
+	walksp = 4;
+	image_speed = 1;
 }
 
 if (global.speed = 1) {
