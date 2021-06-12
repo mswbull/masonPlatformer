@@ -58,6 +58,7 @@ gunkicky = 0;
 
 if (place_meeting(x,y,oLadder))
 {
+	climbing = 1;
 	grv = 0;
 	vsp = 0;
 	if (key_climbup) {
@@ -68,6 +69,7 @@ if (place_meeting(x,y,oLadder))
 	}
 }
 else {
+	climbing = 0;
 	grv = 0.3;	
 }
 
@@ -107,7 +109,7 @@ y = y + vsp;
 
 // Animation
 
-if (!place_meeting(x,y+1,oWall)) && (!place_meeting(x,y,oLadder))
+if (!place_meeting(x,y+1,oWall)) && (!place_meeting(x,y-1,oLadder))
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;
@@ -129,6 +131,7 @@ else
 		}
 	}
 	image_speed = 1;
+	
 	if (hsp == 0)
 	{
 		sprite_index = sPlayer;
@@ -139,13 +142,12 @@ else
 	}
 }
 
-if (hsp == 0) && (place_meeting(x,y,oLadder)) && (!place_meeting(x,y+1,oWall)) && (key_climbup) || (key_climbdown)
+if (climbing = 1) && (!place_meeting(x,y+1,oWall))
 {
 	sprite_index = sPlayerCl;
-	image_speed = 1;
 }
 
-if (place_meeting(x,y+1,oWall)) && (key_crouch)
+if (hsp == 0) && (place_meeting(x,y+1,oWall)) && (key_crouch)
 {
 	sprite_index = sPlayerC;
 	mask_index = sPlayerC;

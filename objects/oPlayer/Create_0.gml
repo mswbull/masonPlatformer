@@ -7,6 +7,7 @@ walksp = 4;
 hascontrol = true;
 canjump = 0; // Jump Buffer
 hit = 0;
+climbing = 0;
 
 gunkickx = 0;
 gunkicky = 0;
