@@ -24,6 +24,8 @@
             {"propertyId":{"name":"intensity","path":"objects/oLightingCutout/oLightingCutout.yy",},"objectId":{"name":"oLightingCutout","path":"objects/oLightingCutout/oLightingCutout.yy",},"value":"0.6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"wobble","path":"objects/oLightingCutout/oLightingCutout.yy",},"objectId":{"name":"oLightingCutout","path":"objects/oLightingCutout/oLightingCutout.yy",},"value":"0.01","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oLightingCutout","path":"objects/oLightingCutout/oLightingCutout.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":768.0,"resourceVersion":"1.0","name":"inst_3E8D42F3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oLavaSpawner","path":"objects/oLavaSpawner/oLavaSpawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":928.0,"resourceVersion":"1.0","name":"inst_4FEEE2E5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oLavaParticle","path":"objects/oLavaParticle/oLavaParticle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_78ECD7BA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Lighting","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EntitiesFront","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tTilesForest","path":"tilesets/tTilesForest/tTilesForest.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":64,"SerialiseHeight":32,"TileSerialiseData":[
@@ -301,6 +303,8 @@
     {"name":"inst_21546E65","path":"rooms/rTraining/rTraining.yy",},
     {"name":"inst_DDB407","path":"rooms/rTraining/rTraining.yy",},
     {"name":"inst_3E8D42F3","path":"rooms/rTraining/rTraining.yy",},
+    {"name":"inst_4FEEE2E5","path":"rooms/rTraining/rTraining.yy",},
+    {"name":"inst_78ECD7BA","path":"rooms/rTraining/rTraining.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
