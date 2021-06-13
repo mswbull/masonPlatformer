@@ -71,7 +71,6 @@
     {"id":{"name":"sDust","path":"sprites/sDust/sDust.yy",},"order":5,},
     {"id":{"name":"oHitSpark","path":"objects/oHitSpark/oHitSpark.yy",},"order":5,},
     {"id":{"name":"PlayerKill","path":"scripts/PlayerKill/PlayerKill.yy",},"order":3,},
-    {"id":{"name":"oSurfaceLight","path":"objects/oSurfaceLight/oSurfaceLight.yy",},"order":0,},
     {"id":{"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},"order":20,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":3,},
     {"id":{"name":"oDoorOpen","path":"objects/oDoorOpen/oDoorOpen.yy",},"order":5,},
