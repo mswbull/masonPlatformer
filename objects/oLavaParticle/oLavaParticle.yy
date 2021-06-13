@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sLavaParticle",
+    "path": "sprites/sLavaParticle/sLavaParticle.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
