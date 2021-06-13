@@ -34,7 +34,7 @@ with(oLavaParticle) {
 	
 	gpu_set_blendmode(bm_add);
 	
-	draw_sprite_ext(sLighting, 0, , x, y, wobble_amount_x, wobble_amount_y, 0, c_orange, image_alpha); // Custom Cutout Lighting
+	draw_sprite_ext(sLighting, 0, x, y, wobble_amount_x, wobble_amount_y, 0, c_orange, image_alpha); // Custom Cutout Lighting
 	
 	gpu_set_blendmode(bm_normal);
 }
