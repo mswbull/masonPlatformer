@@ -12,8 +12,8 @@ if (surface_exists(surface)) {
 	
 	// Drawing
 	
-	draw_set_colour(c_white);
-	draw_set_alpha(1);
+	draw_set_colour(c_black);
+	draw_set_alpha(0.6);
 	draw_rectangle(0, 0, _cw, _ch, 0);
 	
 	gpu_set_blendmode(bm_subtract);
@@ -30,8 +30,8 @@ if (surface_exists(surface)) {
 }
 
 if (!surface_exists(surface)) {
-	var _cw = camera_get_view_width(view_camera[0]) * 1;
-	var _ch = camera_get_view_height(view_camera[0]) * 1;
+	var _cw = camera_get_view_width(view_camera[0]);
+	var _ch = camera_get_view_height(view_camera[0]);
 	
 	// Target
 	
@@ -41,7 +41,7 @@ if (!surface_exists(surface)) {
 
 	surface_set_target(surface);
 	draw_set_colour(c_black);
-	draw_set_alpha(1);
+	draw_set_alpha(0.6);
 	draw_rectangle(0, 0, _cw, _ch, 0);
 
 	// Reset
