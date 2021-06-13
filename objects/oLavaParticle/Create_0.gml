@@ -7,7 +7,7 @@ _gravity = random_range(0.01, 0.03);
 
 fade_speed = random_range(0.01, 0.02);
 
-image_xscale = random_range(0.2, 0.6);
+image_xscale = random_range(0.2, 0.4);
 image_yscale = image_xscale;
 
 image_speed = 0;
