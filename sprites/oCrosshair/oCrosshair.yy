@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 97,
-  "bbox_right": 127,
-  "bbox_top": 0,
-  "bbox_bottom": 30,
+  "bbox_left": 100,
+  "bbox_right": 123,
+  "bbox_top": 4,
+  "bbox_bottom": 27,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 128,
-  "height": 31,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0f371c82-3619-46f7-93a6-97b5817d72d2","path":"sprites/oCrosshair/oCrosshair.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f371c82-3619-46f7-93a6-97b5817d72d2","path":"sprites/oCrosshair/oCrosshair.yy",},"LayerId":{"name":"fbd6a503-a87f-4c26-b23d-032f27b96594","path":"sprites/oCrosshair/oCrosshair.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"oCrosshair","path":"sprites/oCrosshair/oCrosshair.yy",},"resourceVersion":"1.0","name":"0f371c82-3619-46f7-93a6-97b5817d72d2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d740c604-aba1-4730-a4f7-c41a764a8261","path":"sprites/oCrosshair/oCrosshair.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d740c604-aba1-4730-a4f7-c41a764a8261","path":"sprites/oCrosshair/oCrosshair.yy",},"LayerId":{"name":"4f42bc6b-3eb5-4473-860d-944edd542c74","path":"sprites/oCrosshair/oCrosshair.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"oCrosshair","path":"sprites/oCrosshair/oCrosshair.yy",},"resourceVersion":"1.0","name":"d740c604-aba1-4730-a4f7-c41a764a8261","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"oCrosshair","path":"sprites/oCrosshair/oCrosshair.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5114966d-1e40-4486-a5a0-4aa8d696e277","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f371c82-3619-46f7-93a6-97b5817d72d2","path":"sprites/oCrosshair/oCrosshair.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5c49f0ab-f684-4199-97be-fdf4498be954","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d740c604-aba1-4730-a4f7-c41a764a8261","path":"sprites/oCrosshair/oCrosshair.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fbd6a503-a87f-4c26-b23d-032f27b96594","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4f42bc6b-3eb5-4473-860d-944edd542c74","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
