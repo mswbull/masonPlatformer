@@ -6,7 +6,7 @@ if (surface_exists(lighting_surface) == false) {
 
 surface_set_target(lighting_surface);
 
-draw_clear_alpha(c_black, 0.6); // Set Room Colour
+draw_clear_alpha(c_black, tansparency); // Set Room Colour
 
 with(oLightingCutout) {
 	
