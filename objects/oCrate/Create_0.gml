@@ -1,7 +1,5 @@
 /// @desc Add to Wall Layer
 
-vsp = 0.3;
-
 mywall = instance_create_layer(x,y,layer,oWall);
 with (mywall)
 {
