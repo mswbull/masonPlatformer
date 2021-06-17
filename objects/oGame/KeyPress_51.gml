@@ -1,10 +1,10 @@
-/// @desc Skip to Training Room
+/// @desc Skip to Room Three
 
 with (oPlayer)
 {
 	if (hascontrol)
 	{
-		skip = rTraining;
+		skip = rThree;
 		hascontrol = false;
 		SlideTransition(TRANS_MODE.GOTO,skip);
 	}
