@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTorch",
-    "path": "sprites/sTorch/sTorch.yy",
+    "name": "sCampfire",
+    "path": "sprites/sCampfire/sCampfire.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTorch",
+  "name": "oCampfire",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sTorch",
-    "path": "sprites/sTorch/sTorch.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

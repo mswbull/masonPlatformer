@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTorch",
-    "path": "sprites/sTorch/sTorch.yy",
+    "name": "sTorchFloor",
+    "path": "sprites/sTorchFloor/sTorchFloor.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTorch",
+  "name": "oTorchFloor",
   "tags": [],
   "resourceType": "GMObject",
 }
