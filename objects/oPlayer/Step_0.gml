@@ -26,8 +26,8 @@ if (hascontrol)
 
 	if (abs(gamepad_axis_value(0,gp_axislv)) > 0.2)
 	{
-		key_climbdown = abs(min(gamepad_axis_value(0,gp_axislv),0));
-		key_climbup = max(gamepad_axis_value(0,gp_axislv),0);
+		key_climbup = abs(min(gamepad_axis_value(0,gp_axislv),0));
+		key_climbdown = max(gamepad_axis_value(0,gp_axislv),0);
 		controller = 1;
 	}
 
@@ -37,13 +37,13 @@ if (hascontrol)
 		controller = 1;
 	}
 
-	if (gamepad_button_check_pressed(0,gp_face2))
+	if (gamepad_button_check(0,gp_face2))
 	{
 		key_crouch = 1;
 		controller = 1;
 	}
 
-	if (gamepad_button_check_pressed(0,gp_face3))
+	if (gamepad_button_check(0,gp_face3))
 	{
 		key_ability = 1;
 		controller = 1;
