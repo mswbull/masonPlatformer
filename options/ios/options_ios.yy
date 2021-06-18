@@ -32,7 +32,7 @@
   "option_ios_launchscreen_image": "${base_options_dir}/ios/splash/launchscreen.png",
   "option_ios_launchscreen_image_landscape": "${base_options_dir}/ios/splash/launchscreen-landscape.png",
   "option_ios_launchscreen_fill": 0,
-  "option_ios_interpolate_pixels": false,
+  "option_ios_interpolate_pixels": true,
   "option_ios_half_ipad1_textures": false,
   "option_ios_scale": 0,
   "option_ios_texture_page": "2048x2048",
