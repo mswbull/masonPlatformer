@@ -9,8 +9,8 @@ if (oPlayer.controller == 0)
 }
 else
 {
-	var controllerh = gamepad_axis_value(0,gp_axisrh);
-	var controllerv = gamepad_axis_value(0,gp_axisrv);	
+	var controllerh = gamepad_axis_value(global.gamepad,gp_axisrh);
+	var controllerv = gamepad_axis_value(global.gamepad,gp_axisrv);	
 	if (abs(controllerh) > 0.2) || (abs(controllerv) > 0.2)
 	{
 		controllerangle = point_direction(0,0,controllerh,controllerv)
@@ -21,7 +21,7 @@ else
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
-if ((mouse_check_button(mb_left)) || (gamepad_button_check(0,gp_shoulderrb)) || (gamepad_button_check(0,gp_shoulderr))) && (firingdelay < 0)
+if ((mouse_check_button(mb_left)) || (gamepad_button_check(global.gamepad,gp_shoulderrb)) || (gamepad_button_check(global.gamepad,gp_shoulderr))) && (firingdelay < 0)
 {
 	recoil = 4;
 	firingdelay = 25; // Firing Delay

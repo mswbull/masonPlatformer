@@ -1,5 +1,7 @@
 /// @desc Menu and Save Setup
 
+global.gamepad = 0;
+
 #macro SAVEFILE "Save.sav"
 
 gui_width = 1024;
