@@ -1,5 +1,10 @@
 /// @desc Draw Menu
 
+DrawSetText(c_black, fTitle, fa_left, fa_top);
+draw_text_transformed(20,70,"Ninja Caves",1,1,0);
+draw_set_colour(c_white);
+draw_text_transformed(22,68,"Ninja Caves",1,1,0);
+
 draw_set_font(fMenu);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
@@ -29,8 +34,3 @@ for (var i = 0; i < menu_items; i++)
 }
 draw_set_color(c_black);
 draw_rectangle(gui_width,gui_height-200,gui_width+900,gui_height,false);
-
-DrawSetText(c_black, fTitle, fa_left, fa_top);
-draw_text_transformed(20,70,"Ninja Caves",1,1,0);
-draw_set_colour(c_white);
-draw_text_transformed(22,68,"Ninja Caves",1,1,0);
