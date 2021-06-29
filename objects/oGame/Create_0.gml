@@ -4,6 +4,7 @@
 #macro RES_H 768
 display_set_gui_size(RES_W,RES_H);
 
+global.gamepad = 0;
 global.hasgun = false;
 global.coins = 0;
 global.coinsthisroom = 0;

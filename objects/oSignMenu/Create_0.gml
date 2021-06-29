@@ -1,0 +1,3 @@
+/// @desc Variable
+
+nearby = false;
