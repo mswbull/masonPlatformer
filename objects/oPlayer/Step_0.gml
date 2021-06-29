@@ -4,12 +4,12 @@
 
 if (hascontrol)
 {
-	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space);
-	key_crouch = keyboard_check(vk_down) || keyboard_check(ord("C"));
-	key_climbup = keyboard_check(vk_up) || keyboard_check(ord("W"));
-	key_climbdown = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	key_crouch = keyboard_check(ord("C"));
+	key_climbup = keyboard_check(ord("W"));
+	key_climbdown = keyboard_check(ord("S"));
 	key_ability = keyboard_check(ord("Q"));
 
 	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_climbup) || (key_climbdown) || (key_ability)

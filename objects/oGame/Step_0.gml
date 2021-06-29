@@ -8,7 +8,7 @@ if gamepad_is_connected(1) {
 	global.gamepad = 1
 }
 
-if keyboard_check_pressed(ord("R")) || gamepad_button_check_pressed(global.gamepad,gp_start)
+if keyboard_check_pressed(vk_escape)
 {
 	SlideTransition(TRANS_MODE.RESTART);
 }
@@ -18,7 +18,7 @@ if keyboard_check_pressed(ord("N")) || gamepad_button_check_pressed(global.gamep
 	SlideTransition(TRANS_MODE.NEXT);
 }
 	
-if keyboard_check_pressed(vk_control)
+if keyboard_check(vk_control) && keyboard_check_pressed(ord("F"))
 {
 	window_set_fullscreen(!window_get_fullscreen());
 }
