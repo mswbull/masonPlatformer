@@ -10,7 +10,7 @@ if (hascontrol)
 	key_crouch = keyboard_check(ord("C"));
 	key_climbup = keyboard_check(ord("W"));
 	key_climbdown = keyboard_check(ord("S"));
-	key_ability = keyboard_check(ord("Q"));
+	key_ability = keyboard_check(ord("V"));
 
 	if (key_left) || (key_right) || (key_jump) || (key_crouch) || (key_climbup) || (key_climbdown) || (key_ability)
 	{
