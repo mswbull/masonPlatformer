@@ -1,9 +1,4 @@
-/// @desc Menu and Save Setup
-
-global.gamepad = 0;
-global.music = snMusic;
-global.backgroundforest = snBackgroundForest;
-global.backgroundcave = snBackgroundCave;
+/// @desc Save Setup
 
 #macro SAVEFILE "Save.sav"
 

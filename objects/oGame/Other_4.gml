@@ -1,4 +1,6 @@
-/// @desc Score Setup
+/// @desc Score and Music Setup
+
+// Score
 
 global.hasgun = false;
 global.jump = 0;
