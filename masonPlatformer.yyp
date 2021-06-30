@@ -7,7 +7,6 @@
     {"id":{"name":"sExplosion","path":"sprites/sExplosion/sExplosion.yy",},"order":6,},
     {"id":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},"order":4,},
     {"id":{"name":"sHealthBarBorder","path":"sprites/sHealthBarBorder/sHealthBarBorder.yy",},"order":8,},
-    {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":1,},
     {"id":{"name":"sHealthBarBackground","path":"sprites/sHealthBarBackground/sHealthBarBackground.yy",},"order":7,},
     {"id":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"order":1,},
     {"id":{"name":"oTextMenu","path":"objects/oTextMenu/oTextMenu.yy",},"order":6,},
