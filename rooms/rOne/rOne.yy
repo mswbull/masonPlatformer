@@ -148,6 +148,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oCampfire","path":"objects/oCampfire/oCampfire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1632.0,"y":576.0,"resourceVersion":"1.0","name":"inst_133EF542","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCampfire","path":"objects/oCampfire/oCampfire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2912.0,"y":544.0,"resourceVersion":"1.0","name":"inst_1EF3BB8B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCampfire","path":"objects/oCampfire/oCampfire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3232.0,"y":384.0,"resourceVersion":"1.0","name":"inst_2DE85E60","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oForest","path":"objects/oForest/oForest.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_7328B101","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":9.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":864.0,"resourceVersion":"1.0","name":"inst_6FC58485","tags":[],"resourceType":"GMRInstance",},
@@ -418,6 +419,7 @@
     {"name":"inst_517FCDF4","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_3A0BC3B2","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_4BC37049","path":"rooms/rOne/rOne.yy",},
+    {"name":"inst_7328B101","path":"rooms/rOne/rOne.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
