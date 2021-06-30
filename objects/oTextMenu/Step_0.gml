@@ -9,7 +9,10 @@ w = string_width(text_current);
 
 // Destroy When Done
 
-if (letters >= length) && keyboard_check(ord("E")) || (gamepad_button_check(global.gamepad,gp_face4))
+timer = 30;
+timer = timer - 1;
+
+if (letters >= length) && (timer == 0)
 {
 	instance_destroy();
 	with (oCamera) follow = oPlayer;
