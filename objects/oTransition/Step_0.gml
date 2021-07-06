@@ -18,23 +18,29 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.INTRO:
 			{
 				mode = TRANS_MODE.OFF;
-				break;	
+				break;
 			}
 			case TRANS_MODE.NEXT:
 			{
 				mode = TRANS_MODE.INTRO;
 				room_goto_next();
-				break;				
+				break;
 			}
 			case TRANS_MODE.GOTO:
 			{
 				mode = TRANS_MODE.INTRO;
 				room_goto(target);
-				break;	
+				break;
 			}
 			case TRANS_MODE.RESTART:
 			{
 				game_restart();
+				break;
+			}
+			case TRANS_MODE.ABOUT:
+			{
+				mode = TRANS_MODE.INTRO;
+				room_goto(rAbout);
 				break;				
 			}	
 		}
