@@ -9,7 +9,7 @@ enum TRANS_MODE
 	NEXT,
 	GOTO,
 	RESTART,
-	INTRO, 
+	INTRO,
 	ABOUT
 }
 mode = TRANS_MODE.INTRO;
