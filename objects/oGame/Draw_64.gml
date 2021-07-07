@@ -5,7 +5,6 @@ if (room != rMenu) && (instance_exists(oPlayer)) && (global.coins > 0)
 	cointextscale = max(cointextscale * 0.95, 1);
 	DrawSetText(c_black,fMenu,fa_right,fa_top);
 	draw_text_transformed(RES_W-8,12,string(global.coins) + " Coins",cointextscale,cointextscale,0);
-	draw_text_transformed(RES_W-8,12,string(global.coins) + " Coins",cointextscale,cointextscale,0);
 	draw_set_colour(c_white);
 	draw_text_transformed(RES_W-10,10,string(global.coins) + " Coins",cointextscale,cointextscale,0);
 }
