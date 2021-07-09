@@ -1,7 +1,7 @@
 {
   "option_ios_display_name": "Ninja Caves",
   "option_ios_bundle_name": "com.lifeintech.ninjacavesios",
-  "option_ios_version": "1.0.0.0",
+  "option_ios_version": "1.0.2",
   "option_ios_output_dir": "~/gamemakerstudio2",
   "option_ios_team_id": "HEYTXBF6EK",
   "option_ios_orientation_portrait": false,
