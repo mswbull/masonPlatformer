@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCrystalRed",
+    "path": "sprites/sCrystalRed/sCrystalRed.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

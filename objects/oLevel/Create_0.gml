@@ -14,13 +14,15 @@ menu_itemheight = font_get_size(menu_font);
 menu_committed = -1;
 menu_control = true;
 
-menu[3] = "Level One";
-menu[2] = "Level Two";
-menu[1] = "Level Three";
-menu[0] = "Level Four";
+menu[5] = "Main Menu";
+menu[4] = "Level One";
+menu[3] = "Level Two";
+menu[2] = "Level Three";
+menu[1] = "Level Four";
+menu[0] = "Level Five";
 
 menu_items = array_length_1d(menu);
 
 menu_top = menu_y - ((menu_itemheight * 1.5) * menu_items);
 
-menu_cursor = 3;
+menu_cursor = 5;
