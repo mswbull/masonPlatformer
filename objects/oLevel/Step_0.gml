@@ -45,27 +45,9 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 4: SlideTransition(TRANS_MODE.NEXT); break;
-		case 3:
-		{
-			if (!file_exists(SAVEFILE))
-			{
-				SlideTransition(TRANS_MODE.NEXT);	
-			}
-			else
-			{
-				var file = file_text_open_read(SAVEFILE);
-				var target = file_text_read_real(file);
-				global.kills = file_text_read_real(file);
-				global.hasgun = file_text_read_real(file);
-				global.coins = file_text_read_real(file);
-				file_text_close(file);
-				SlideTransition(TRANS_MODE.GOTO,target);
-			}
-		}
-		break;
-		case 2: SlideTransition(TRANS_MODE.LEVEL); break;
-		case 1: SlideTransition(TRANS_MODE.ABOUT); break;
-		case 0: game_end(); break;
+		case 3: SlideTransition(TRANS_MODE.GOTO,rOne); break;
+		case 2: SlideTransition(TRANS_MODE.GOTO,rTwo); break;
+		case 1: SlideTransition(TRANS_MODE.GOTO,rThree); break;
+		case 0: SlideTransition(TRANS_MODE.GOTO,rFour); break;
 	}
 }

@@ -98,6 +98,7 @@
     {"id":{"name":"fTitle","path":"fonts/fTitle/fTitle.yy",},"order":3,},
     {"id":{"name":"sTilesCave","path":"sprites/sTilesCave/sTilesCave.yy",},"order":2,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":0,},
+    {"id":{"name":"oLevel","path":"objects/oLevel/oLevel.yy",},"order":11,},
     {"id":{"name":"snBreak","path":"sounds/snBreak/snBreak.yy",},"order":9,},
     {"id":{"name":"snLanding","path":"sounds/snLanding/snLanding.yy",},"order":5,},
     {"id":{"name":"sMarker","path":"sprites/sMarker/sMarker.yy",},"order":10,},
@@ -113,6 +114,7 @@
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"order":2,},
     {"id":{"name":"sSignC","path":"sprites/sSignC/sSignC.yy",},"order":12,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
+    {"id":{"name":"rLevel","path":"rooms/rLevel/rLevel.yy",},"order":18,},
     {"id":{"name":"sCampfire","path":"sprites/sCampfire/sCampfire.yy",},"order":22,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":12,},
@@ -166,6 +168,7 @@
     {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
     {"roomId":{"name":"rFour","path":"rooms/rFour/rFour.yy",},},
     {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
+    {"roomId":{"name":"rLevel","path":"rooms/rLevel/rLevel.yy",},},
     {"roomId":{"name":"rAbout","path":"rooms/rAbout/rAbout.yy",},},
   ],
   "Folders": [

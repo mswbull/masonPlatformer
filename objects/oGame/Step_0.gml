@@ -12,14 +12,6 @@ if keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(global.game
 {
 	SlideTransition(TRANS_MODE.RESTART);
 }
-
-if (room == rOne)  || (room == rTwo)  || (room == rThree)|| (room == rFour)
-{
-	if keyboard_check(vk_control) && keyboard_check_pressed(ord("N"))
-	{
-		SlideTransition(TRANS_MODE.NEXT);	
-	}
-}
 	
 if keyboard_check(vk_control) && keyboard_check_pressed(ord("F"))
 {
