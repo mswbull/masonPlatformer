@@ -30,6 +30,4 @@ function dyliquid_init(argument0, argument1, argument2, argument3, argument4, ar
 	dyliquid_set_spread(argument3);
 	dyliquid_set_wave(argument4);
 	dyliquid_set_speed(argument5);
-
-
 }

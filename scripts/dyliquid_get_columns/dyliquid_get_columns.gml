@@ -7,6 +7,4 @@ function dyliquid_get_columns() {
 	*/
 
 	return dy_colomns_count;
-
-
 }

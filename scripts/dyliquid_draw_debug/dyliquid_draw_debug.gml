@@ -19,6 +19,4 @@ function dyliquid_draw_debug() {
 	}
 	draw_primitive_end();
 	draw_set_color(c_black);
-
-
 }

@@ -13,6 +13,4 @@ function dyliquid_get_bounds() {
 	result[3] = dy_y[1];
 
 	return result;
-
-
 }

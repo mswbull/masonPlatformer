@@ -24,6 +24,4 @@ function dyliquid_set_quality(argument0, argument1) {
 	dy_colomns_count = quality;
 	dy_column_width = (dy_x[1] - dy_x[0]) / (dy_colomns_count - 1); // width of each spring
 	dy_smoothing = argument1; // amount of water passes, used in dyliquid_update
-
-
 }

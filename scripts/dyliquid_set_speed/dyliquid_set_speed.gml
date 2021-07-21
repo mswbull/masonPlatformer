@@ -7,6 +7,4 @@ function dyliquid_set_speed(argument0) {
 	*/
 
 	dy_speed = clamp(argument0, -16, 16);
-
-
 }

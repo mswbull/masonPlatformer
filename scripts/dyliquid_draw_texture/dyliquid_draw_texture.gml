@@ -26,7 +26,4 @@ function dyliquid_draw_texture(argument0, argument1, argument2, argument3, argum
 	    draw_vertex_texture_colour(p2[0], p2[1], p2[0]/argument6, (dy_y[0]-p2[1])/argument6, argument1, argument3);
 	}
 	draw_primitive_end();
-
-
-
 }

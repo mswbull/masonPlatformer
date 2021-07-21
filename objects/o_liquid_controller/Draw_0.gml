@@ -1,4 +1,4 @@
-/// @description Change properties
+/// @desc Debug Mode
 
 if (debug) {
     with(o_liquid_parent) {

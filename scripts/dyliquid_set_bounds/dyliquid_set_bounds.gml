@@ -15,6 +15,4 @@ function dyliquid_set_bounds(argument0, argument1, argument2, argument3) {
 	dy_y[1] = argument3;
 
 	dy_column_width = (dy_x[1] - dy_x[0]) / (dy_colomns_count - 1); // width of each spring
-
-
 }

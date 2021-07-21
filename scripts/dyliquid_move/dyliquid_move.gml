@@ -11,6 +11,4 @@ function dyliquid_move(argument0, argument1, argument2, argument3) {
 
 	dyliquid_set_bounds(argument0, argument1, argument2, argument3);
 	dyliquid_set_quality(dy_colomns_count, dy_smoothing);
-
-
 }

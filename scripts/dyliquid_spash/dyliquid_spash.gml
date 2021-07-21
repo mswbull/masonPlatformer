@@ -16,6 +16,4 @@ function dyliquid_spash(argument0, argument1) {
 	for (var i = index; i < min(dy_colomns_count, index+1); i++) {
 	  dy_column[i*3+2] = argument1;
 	}
-
-
 }

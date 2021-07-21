@@ -9,6 +9,4 @@ function dyliquid_spash_column(argument0, argument1) {
 	*/
 
 	dyliquid_spash(argument0 * dy_column_width, argument1);
-
-
 }

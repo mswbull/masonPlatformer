@@ -8,6 +8,4 @@ function dyliquid_set_dampening(argument0) {
 	*/
 
 	dy_dampening = clamp(argument0, 0.0001, 0.5);
-
-
 }

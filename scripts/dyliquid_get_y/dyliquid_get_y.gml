@@ -11,6 +11,4 @@ function dyliquid_get_y(argument0) {
 	} else {
 	    show_debug_message("x in dyliquid_get_y(x) is outside of bounds of liquid rectangle!");
 	}
-
-
 }

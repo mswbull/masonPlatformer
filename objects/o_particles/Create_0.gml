@@ -1,3 +1,5 @@
+/// @desc Liquid Particle System
+
 ps = part_system_create();
 
 pt_splash = part_type_create();

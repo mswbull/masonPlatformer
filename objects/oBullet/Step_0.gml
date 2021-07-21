@@ -16,6 +16,23 @@ if (place_meeting(x,y,pShootable))
 	instance_destroy();
 }
 
+// Bullet Wall Collision
+
+if (place_meeting(x,y,oWall)) && (image_index != 0) 
+{
+	while (place_meeting(x,y,oWall))
+	{
+		x -= lengthdir_x(1,direction);
+		y -= lengthdir_y(1,direction);
+	}
+	spd = 0;
+	instance_change(oHitSpark,true);
+	layer_add_instance("Tiles",id);
+	depth += 1;
+}
+
+// Liquid Particles
+
 if (instance_exists(o_liquid_parent)) {
     with (o_liquid_parent) {
         var bounds = dyliquid_get_bounds();
@@ -37,20 +54,4 @@ if (instance_exists(o_liquid_parent)) {
         }
     }
 }
-
-// Bullet Wall Collision
-
-if (place_meeting(x,y,oWall)) && (image_index != 0) 
-{
-	while (place_meeting(x,y,oWall))
-	{
-		x -= lengthdir_x(1,direction);
-		y -= lengthdir_y(1,direction);
-	}
-	spd = 0;
-	instance_change(oHitSpark,true);
-	layer_add_instance("Tiles",id);
-	depth += 1;
-}
-
 

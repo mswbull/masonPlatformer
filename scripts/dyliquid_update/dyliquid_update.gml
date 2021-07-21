@@ -47,6 +47,4 @@ function dyliquid_update() {
 	        }
 	    }
 	}
-
-
 }

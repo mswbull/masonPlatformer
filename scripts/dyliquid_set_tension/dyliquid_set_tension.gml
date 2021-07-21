@@ -10,6 +10,4 @@ function dyliquid_set_tension(argument0) {
 	*/
 
 	dy_tension = clamp(argument0, 0.00005, 2);
-
-
 }

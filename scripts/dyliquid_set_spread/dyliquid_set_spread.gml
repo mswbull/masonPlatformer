@@ -9,6 +9,4 @@ function dyliquid_set_spread(argument0) {
 	*/
 
 	dy_spread = clamp(argument0, 0.0, 1);
-
-
 }

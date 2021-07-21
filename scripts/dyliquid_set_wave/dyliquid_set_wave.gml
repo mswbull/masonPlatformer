@@ -7,6 +7,4 @@ function dyliquid_set_wave(argument0) {
 	*/
 
 	dy_wave = clamp(argument0, 0, 0.1);
-
-
 }
