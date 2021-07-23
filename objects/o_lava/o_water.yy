@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_water",
-    "path": "sprites/s_water/s_water.yy",
+    "name": "oWater",
+    "path": "sprites/oWater/oWater.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_water",
-    "path": "sprites/s_water/s_water.yy",
+    "name": "s_lava",
+    "path": "sprites/s_lava/s_lava.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Liquid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_water",
+  "name": "o_lava",
   "tags": [],
   "resourceType": "GMObject",
 }
