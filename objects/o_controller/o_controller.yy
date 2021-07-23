@@ -28,7 +28,7 @@
     "path": "folders/Objects/Liquid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_liquid_controller",
+  "name": "o_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -135,7 +135,7 @@
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"rLevel","path":"rooms/rLevel/rLevel.yy",},"order":18,},
     {"id":{"name":"sCampfire","path":"sprites/sCampfire/sCampfire.yy",},"order":22,},
-    {"id":{"name":"o_liquid_controller","path":"objects/o_liquid_controller/o_liquid_controller.yy",},"order":3,},
+    {"id":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},"order":3,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
     {"id":{"name":"o_liquid_parent","path":"objects/o_liquid_parent/o_liquid_parent.yy",},"order":2,},
     {"id":{"name":"dyliquid_get_y","path":"scripts/dyliquid_get_y/dyliquid_get_y.yy",},"order":6,},
