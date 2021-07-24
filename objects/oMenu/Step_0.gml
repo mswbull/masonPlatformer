@@ -45,8 +45,8 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 4: SlideTransition(TRANS_MODE.NEXT); break;
-		case 3:
+		case 5: SlideTransition(TRANS_MODE.NEXT); break;
+		case 4:
 		{
 			if (!file_exists(SAVEFILE))
 			{
@@ -64,6 +64,7 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 			}
 		}
 		break;
+		case 3: SlideTransition(TRANS_MODE.TRAINING); break;
 		case 2: SlideTransition(TRANS_MODE.LEVEL); break;
 		case 1: SlideTransition(TRANS_MODE.ABOUT); break;
 		case 0: game_end(); break;

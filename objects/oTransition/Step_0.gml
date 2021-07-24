@@ -39,6 +39,12 @@ if (mode != TRANS_MODE.OFF)
 				game_restart();
 				break;
 			}
+			case TRANS_MODE.TRAINING:
+			{
+				mode = TRANS_MODE.INTRO;
+				room_goto(rTraining);
+				break;				
+			}	
 			case TRANS_MODE.LEVEL:
 			{
 				mode = TRANS_MODE.INTRO;

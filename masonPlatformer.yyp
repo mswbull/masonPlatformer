@@ -104,7 +104,6 @@
     {"id":{"name":"oExplosion","path":"objects/oExplosion/oExplosion.yy",},"order":6,},
     {"id":{"name":"dyliquid_draw_texture","path":"scripts/dyliquid_draw_texture/dyliquid_draw_texture.yy",},"order":3,},
     {"id":{"name":"sAbilitySpeed","path":"sprites/sAbilitySpeed/sAbilitySpeed.yy",},"order":17,},
-    {"id":{"name":"oLevelNew","path":"objects/oLevelNew/oLevelNew.yy",},"order":25,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":1,},
     {"id":{"name":"oAbout","path":"objects/oAbout/oAbout.yy",},"order":9,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
