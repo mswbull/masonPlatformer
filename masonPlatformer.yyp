@@ -135,6 +135,7 @@
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"rLevel","path":"rooms/rLevel/rLevel.yy",},"order":18,},
     {"id":{"name":"sCampfire","path":"sprites/sCampfire/sCampfire.yy",},"order":22,},
+    {"id":{"name":"rTraining","path":"rooms/rTraining/rTraining.yy",},"order":20,},
     {"id":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},"order":3,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
     {"id":{"name":"o_liquid_parent","path":"objects/o_liquid_parent/o_liquid_parent.yy",},"order":2,},
@@ -197,6 +198,7 @@
     {"roomId":{"name":"rLevel","path":"rooms/rLevel/rLevel.yy",},},
     {"roomId":{"name":"rAbout","path":"rooms/rAbout/rAbout.yy",},},
     {"roomId":{"name":"rFive","path":"rooms/rFive/rFive.yy",},},
+    {"roomId":{"name":"rTraining","path":"rooms/rTraining/rTraining.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
