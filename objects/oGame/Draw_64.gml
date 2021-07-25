@@ -34,6 +34,14 @@ if (room != rMenu) && (instance_exists(oPlayer)) && (global.hasgun == 1)
 	draw_text_transformed(10,43,"Equipped: Ninja Stars",1,1,0);
 }
 
+if (room != rMenu) && (instance_exists(oPlayer)) && (global.speed == 0) && (global.jump == 0) && (global.glide == 0)
+{
+	DrawSetText(c_black,fOSD,fa_left,fa_top);
+	draw_text_transformed(8,80,"Ability: None",1,1,0);
+	draw_set_colour(c_white);
+	draw_text_transformed(10,77,"Ability: None",1,1,0);
+}
+
 if (room != rMenu) && (instance_exists(oPlayer)) && (global.speed == 1)
 {
 	DrawSetText(c_black,fOSD,fa_left,fa_top);
@@ -61,15 +69,15 @@ if (room != rMenu) && (instance_exists(oPlayer)) && (global.glide == 1)
 if (room != rMenu) && (instance_exists(oPlayer)) && (global.crystal == 0)
 {
 	DrawSetText(c_black,fOSD,fa_left,fa_top);
-	draw_text_transformed(8,110,"Crystal: No",1,1,0);
+	draw_text_transformed(8,115,"Crystal: No",1,1,0);
 	draw_set_colour(c_white);
-	draw_text_transformed(10,107,"Crystal: No",1,1,0);
+	draw_text_transformed(10,112,"Crystal: No",1,1,0);
 }
 
 if (room != rMenu) && (instance_exists(oPlayer)) && (global.crystal == 1)
 {
 	DrawSetText(c_black,fOSD,fa_left,fa_top);
-	draw_text_transformed(8,110,"Crystal: Yes",1,1,0);
+	draw_text_transformed(8,115,"Crystal: Yes",1,1,0);
 	draw_set_colour(c_white);
-	draw_text_transformed(10,107,"Crystal: Yes",1,1,0);
+	draw_text_transformed(10,112,"Crystal: Yes",1,1,0);
 }
