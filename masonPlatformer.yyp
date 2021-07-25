@@ -134,6 +134,7 @@
     {"id":{"name":"sDoorOpen","path":"sprites/sDoorOpen/sDoorOpen.yy",},"order":5,},
     {"id":{"name":"tTilesCave","path":"tilesets/tTilesCave/tTilesCave.yy",},"order":1,},
     {"id":{"name":"oLavaSpawner","path":"objects/oLavaSpawner/oLavaSpawner.yy",},"order":3,},
+    {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"order":4,},
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"order":2,},
     {"id":{"name":"sSignC","path":"sprites/sSignC/sSignC.yy",},"order":12,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
