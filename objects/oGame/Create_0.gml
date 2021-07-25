@@ -11,6 +11,7 @@ global.backgroundforest = snBackgroundForest;
 global.backgroundcave = snBackgroundCave;
 
 global.hasgun = false;
+global.haslight = false;
 global.coins = 0;
 global.coinsthisroom = 0;
 global.kills = 0;
