@@ -18,7 +18,7 @@ menu_control = true;
 
 menu[5] = "New Game";
 menu[4] = "Continue";
-menu[3] = "Training";
+menu[3] = "Tutorial";
 menu[2] = "Level Select";
 menu[1] = "About";
 menu[0] = "Quit";

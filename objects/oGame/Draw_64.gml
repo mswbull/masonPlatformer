@@ -57,3 +57,19 @@ if (room != rMenu) && (instance_exists(oPlayer)) && (global.glide == 1)
 	draw_set_colour(c_white);
 	draw_text_transformed(10,77,"Ability: Glide",1,1,0);
 }
+
+if (room != rMenu) && (instance_exists(oPlayer)) && (global.crystal == 0)
+{
+	DrawSetText(c_black,fOSD,fa_left,fa_top);
+	draw_text_transformed(8,80,"Crystal: No",1,1,0);
+	draw_set_colour(c_white);
+	draw_text_transformed(10,77,"Crystal: No",1,1,0);
+}
+
+if (room != rMenu) && (instance_exists(oPlayer)) && (global.crystal == 1)
+{
+	DrawSetText(c_black,fOSD,fa_left,fa_top);
+	draw_text_transformed(8,80,"Crystal: Yes",1,1,0);
+	draw_set_colour(c_white);
+	draw_text_transformed(10,77,"Crystal: Yes",1,1,0);
+}

@@ -39,7 +39,7 @@ if (mode != TRANS_MODE.OFF)
 				game_restart();
 				break;
 			}
-			case TRANS_MODE.TRAINING:
+			case TRANS_MODE.TUTORIAL:
 			{
 				mode = TRANS_MODE.INTRO;
 				room_goto(rTraining);
