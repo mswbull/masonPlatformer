@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "oCrosshair",
-    "path": "sprites/oCrosshair/oCrosshair.yy",
+    "name": "sLighting",
+    "path": "sprites/sLighting/sLighting.yy",
   },
   "solid": false,
   "visible": true,
