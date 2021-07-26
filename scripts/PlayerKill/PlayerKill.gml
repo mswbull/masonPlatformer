@@ -1,5 +1,6 @@
 function PlayerKill() {
 	with (oGun) instance_destroy();
+	with (oLight) instance_destroy();
 	instance_change(oPDead,true);
 
 	direction = point_direction(other.x,other.y,x,y);
@@ -8,6 +9,7 @@ function PlayerKill() {
 	if (sign(hsp) != 0) image_xscale = sign(hsp);
 
 	global.hasgun = 0;
+	global.haslight = 0;
 	global.coins -= global.coinsthisroom;
 	global.kills -= global.killsthisroom;
 }
