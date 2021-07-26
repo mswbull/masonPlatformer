@@ -45,11 +45,12 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 5: SlideTransition(TRANS_MODE.RESTART); break;
-		case 4: SlideTransition(TRANS_MODE.GOTO,rOne); break;
-		case 3: SlideTransition(TRANS_MODE.GOTO,rTwo); break;
-		case 2: SlideTransition(TRANS_MODE.GOTO,rThree); break;
-		case 1: SlideTransition(TRANS_MODE.GOTO,rFour); break;
-		case 0: SlideTransition(TRANS_MODE.GOTO,rFive); break;
+		case 6: SlideTransition(TRANS_MODE.RESTART); break;
+		case 5: SlideTransition(TRANS_MODE.GOTO,rOne); break;
+		case 4: SlideTransition(TRANS_MODE.GOTO,rTwo); break;
+		case 3: SlideTransition(TRANS_MODE.GOTO,rThree); break;
+		case 2: SlideTransition(TRANS_MODE.GOTO,rFour); break;
+		case 1: SlideTransition(TRANS_MODE.GOTO,rFive); break;
+		case 0: SlideTransition(TRANS_MODE.GOTO,rSix); break;
 	}
 }
