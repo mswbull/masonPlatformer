@@ -16,7 +16,7 @@ if (menu_control)
 		if (menu_cursor < 0) menu_cursor = menu_items-1;
 		audio_play_sound(snMenu,5,false);
 	}
-	if (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(global.gamepad,gp_start))
+	if (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(global.gamepad,gp_start) || gamepad_button_check_pressed(global.gamepad,gp_face1))
 	{
 		menu_x_target = gui_width+300;
 		menu_committed = menu_cursor;
