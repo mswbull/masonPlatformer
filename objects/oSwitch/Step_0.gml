@@ -4,7 +4,7 @@ if (place_meeting(x, y, oPlayer)) && (keyboard_check_pressed(ord("E"))) || (game
 	pressed = true;
 }
 
-if (pressed == true && door != undefined && instance_exists(oDoorSide)) {
-	door.open = true;
+if (pressed == true && rock != undefined && instance_exists(oRock)) {
+	rock.destroyed = true;
 	image_index = 1;
 }

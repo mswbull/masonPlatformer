@@ -2,7 +2,7 @@
 
 image_speed = 0;
 image_index = 0;
-open = false;
+destroyed = false;
 
 mywall = instance_create_layer(x,y,layer,oWall);
 with (mywall)

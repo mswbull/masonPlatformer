@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDoorSide",
-    "path": "sprites/sDoorSide/sDoorSide.yy",
+    "name": "sRock",
+    "path": "sprites/sRock/sRock.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDoorSide",
+  "name": "oRock",
   "tags": [],
   "resourceType": "GMObject",
 }

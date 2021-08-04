@@ -42,7 +42,7 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.TUTORIAL:
 			{
 				mode = TRANS_MODE.INTRO;
-				room_goto(rTraining);
+				room_goto(rTutorial);
 				break;				
 			}	
 			case TRANS_MODE.LEVEL:

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 15,
-  "bbox_top": 0,
-  "bbox_bottom": 127,
+  "bbox_left": 1,
+  "bbox_right": 88,
+  "bbox_top": 1,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 128,
+  "width": 89,
+  "height": 96,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"93069222-d01d-43ef-9871-3824e875119f","path":"sprites/sDoorSide/sDoorSide.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"93069222-d01d-43ef-9871-3824e875119f","path":"sprites/sDoorSide/sDoorSide.yy",},"LayerId":{"name":"f8c33dda-34a3-4433-9b47-78c589ad67e6","path":"sprites/sDoorSide/sDoorSide.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDoorSide","path":"sprites/sDoorSide/sDoorSide.yy",},"resourceVersion":"1.0","name":"93069222-d01d-43ef-9871-3824e875119f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f0de63da-6c13-464f-a222-8678cf7d318e","path":"sprites/sRock/sRock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f0de63da-6c13-464f-a222-8678cf7d318e","path":"sprites/sRock/sRock.yy",},"LayerId":{"name":"b0c717d5-155a-4a90-9c62-cab415bcbedc","path":"sprites/sRock/sRock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sRock","path":"sprites/sRock/sRock.yy",},"resourceVersion":"1.0","name":"f0de63da-6c13-464f-a222-8678cf7d318e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sDoorSide","path":"sprites/sDoorSide/sDoorSide.yy",},
+    "spriteId": {"name":"sRock","path":"sprites/sRock/sRock.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ff3de173-f75f-4d25-a90a-79393c21aa33","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93069222-d01d-43ef-9871-3824e875119f","path":"sprites/sDoorSide/sDoorSide.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5d70cd5d-3a26-4cca-bab6-58a75efa471d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f0de63da-6c13-464f-a222-8678cf7d318e","path":"sprites/sRock/sRock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sDoorSide","path":"sprites/sDoorSide/sDoorSide.yy",},
+    "parent": {"name":"sRock","path":"sprites/sRock/sRock.yy",},
     "resourceVersion": "1.3",
-    "name": "sDoorSide",
+    "name": "sRock",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f8c33dda-34a3-4433-9b47-78c589ad67e6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0c717d5-155a-4a90-9c62-cab415bcbedc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Room Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sDoorSide",
+  "name": "sRock",
   "tags": [],
   "resourceType": "GMSprite",
 }
