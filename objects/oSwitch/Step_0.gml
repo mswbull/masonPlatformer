@@ -5,6 +5,6 @@ if (place_meeting(x, y, oPlayer)) && (keyboard_check_pressed(ord("E"))) || (game
 	image_index = 1;
 }
 
-if (pressed == true && rock != undefined && instance_exists(oRock)) {
-	rock.destroyed = true;
+if (pressed == true && instance_exists(oRock)) {
+	oRock.destroyed = true;
 }
