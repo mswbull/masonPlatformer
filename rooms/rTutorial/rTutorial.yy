@@ -81,14 +81,6 @@
           ],"isDnd":false,"objectId":{"name":"oSign","path":"objects/oSign/oSign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":608.0,"resourceVersion":"1.0","name":"inst_7DE07F29","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCampfire","path":"objects/oCampfire/oCampfire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":416.0,"resourceVersion":"1.0","name":"inst_102BD9F6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oFall","path":"objects/oFall/oFall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":672.0,"resourceVersion":"1.0","name":"inst_5A54BA9B","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oRock","path":"objects/oRock/oRock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":544.0,"resourceVersion":"1.0","name":"inst_2B9ACACA","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"rock","path":"objects/oSwitch/oSwitch.yy",},"objectId":{"name":"oSwitch","path":"objects/oSwitch/oSwitch.yy",},"value":"inst_2B9ACACA","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"oSwitch","path":"objects/oSwitch/oSwitch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":640.0,"resourceVersion":"1.0","name":"inst_1BD45A98","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oRock","path":"objects/oRock/oRock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":544.0,"resourceVersion":"1.0","name":"inst_A4C470F","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"rock","path":"objects/oSwitch/oSwitch.yy",},"objectId":{"name":"oSwitch","path":"objects/oSwitch/oSwitch.yy",},"value":"inst_A4C470F","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"oSwitch","path":"objects/oSwitch/oSwitch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":640.0,"resourceVersion":"1.0","name":"inst_6362BD4B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":14.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":704.0,"resourceVersion":"1.0","name":"inst_3F04ADD3","tags":[],"resourceType":"GMRInstance",},
@@ -202,10 +194,6 @@
     {"name":"inst_56F3C7FB","path":"rooms/rTutorial/rTutorial.yy",},
     {"name":"inst_66E0F7F1","path":"rooms/rTutorial/rTutorial.yy",},
     {"name":"inst_5A54BA9B","path":"rooms/rTutorial/rTutorial.yy",},
-    {"name":"inst_1BD45A98","path":"rooms/rTutorial/rTutorial.yy",},
-    {"name":"inst_A4C470F","path":"rooms/rTutorial/rTutorial.yy",},
-    {"name":"inst_2B9ACACA","path":"rooms/rTutorial/rTutorial.yy",},
-    {"name":"inst_6362BD4B","path":"rooms/rTutorial/rTutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
