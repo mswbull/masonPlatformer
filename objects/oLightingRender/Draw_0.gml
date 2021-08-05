@@ -23,6 +23,12 @@ with(oLightingCutout) {
 	gpu_set_blendmode(bm_normal);
 }
 
+with(oLight) {
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, 0.5);
+	gpu_set_blendmode(bm_normal);
+}
+
 var lava_wobble = 0.05;
 with(oLavaParticle) {
 	

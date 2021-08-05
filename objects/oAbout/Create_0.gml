@@ -1,0 +1,3 @@
+/// @desc Variables and About Text
+
+text = "Ninja Caves is a ninja-themed platform game targeting players that are new to the genre. \n \n Each level containers a crystal, which must be found and collected before proceeding. \n \n Ninja Caves was developed by a single developer for my son, Mason. \n \n Nina Caves includes royalty-free assets from Pzuh, Kenney and Sidearm Studios. \n \n The Privacy Polcy for Ninja Caves can be found at https://www.lifeintech.com/ninjacaves."

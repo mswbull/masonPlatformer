@@ -9,7 +9,10 @@ enum TRANS_MODE
 	NEXT,
 	GOTO,
 	RESTART,
-	INTRO
+	INTRO,
+	LEVEL,
+	TUTORIAL,
+	ABOUT
 }
 mode = TRANS_MODE.INTRO;
 percent = 1;

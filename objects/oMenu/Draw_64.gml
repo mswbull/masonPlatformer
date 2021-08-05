@@ -5,6 +5,18 @@ draw_text_transformed(20,70,"Ninja Caves",1,1,0);
 draw_set_colour(c_white);
 draw_text_transformed(22,68,"Ninja Caves",1,1,0);
 
+DrawSetText(c_black, fTitleSubText, fa_left, fa_top);
+draw_text_transformed(20,150,"Find and Collect the Crystals!",1,1,0);
+draw_set_colour(c_white);
+draw_text_transformed(22,148,"Find and Collect the Crystals!",1,1,0);
+
+if (os_browser = device_ios_ipad) && (gamepad_is_connected(1)) {
+	DrawSetText(c_black, fController, fa_left, fa_top);
+	draw_text_transformed(20,695,"Bluetooth Controller Not Detected.",1,1,0);
+	draw_set_colour(c_white);
+	draw_text_transformed(22,693,"Bluetooth Controller Not Detected.",1,1,0);
+}
+
 draw_set_font(fMenu);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
