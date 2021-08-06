@@ -6,7 +6,6 @@ if (place_meeting(x, y, oPlayer)) && (keyboard_check_pressed(ord("E"))) || (game
 }
 else {
 	pressed = false;
-	image_index = 0;
 }
 
 if (pressed == true && rock != undefined && instance_exists(oRock)) {
