@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSpikes",
-    "path": "sprites/sSpikes/sSpikes.yy",
+    "name": "sTorch",
+    "path": "sprites/sTorch/sTorch.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSpikes",
+  "name": "oTorch",
   "tags": [],
   "resourceType": "GMObject",
 }
