@@ -1,15 +1,18 @@
 {
   "spriteId": {
-    "name": "sEnemyMaster",
-    "path": "sprites/sEnemyMaster/sEnemyMaster.yy",
+    "name": "sEnemyTrap",
+    "path": "sprites/sEnemyTrap/sEnemyTrap.yy",
   },
   "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
+  "visible": false,
+  "spriteMaskId": {
+    "name": "sEnemy",
+    "path": "sprites/sEnemy/sEnemy.yy",
+  },
   "persistent": false,
   "parentObjectId": {
-    "name": "oEnemy",
-    "path": "objects/oEnemy/oEnemy.yy",
+    "name": "pShootable",
+    "path": "objects/pShootable/pShootable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +27,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"hp","path":"objects/pShootable/pShootable.yy",},"objectId":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"hasweapon","path":"objects/oEnemy/oEnemy.yy",},"objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"walksp","path":"objects/oEnemy/oEnemy.yy",},"objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  "properties": [
+    {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hasweapon","tags":[],"resourceType":"GMObjectProperty",},
   ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Enemy",
     "path": "folders/Objects/Enemy.yy",
