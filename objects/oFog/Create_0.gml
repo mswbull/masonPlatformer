@@ -11,5 +11,5 @@ part_type_shape(particle_fog, pt_shape_cloud);
 part_type_size(particle_fog, 1, 1, 0, 0);
 part_type_direction(particle_fog, 180, 180, 0, 0);
 part_type_speed(particle_fog, 0.01, 0.02, 0, 0);
-part_type_alpha3(particle_fog, 0.01, 0.03, 0.01);
+part_type_alpha3(particle_fog, alpha1, alpha2, alpha3);
 part_type_life(particle_fog, 240, 240);

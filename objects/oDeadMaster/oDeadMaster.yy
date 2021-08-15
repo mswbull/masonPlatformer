@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnemyAltD",
-    "path": "sprites/sEnemyAltD/sEnemyAltD.yy",
+    "name": "sEnemyMasterD",
+    "path": "sprites/sEnemyMasterD/sEnemyMasterD.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDeadAlt",
+  "name": "oDeadMaster",
   "tags": [],
   "resourceType": "GMObject",
 }
