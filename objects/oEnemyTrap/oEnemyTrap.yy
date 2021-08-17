@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sEnemyTrap",
-    "path": "sprites/sEnemyTrap/sEnemyTrap.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": false,
   "spriteMaskId": {

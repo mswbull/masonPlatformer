@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBullet",
-    "path": "sprites/sBullet/sBullet.yy",
+    "name": "s_rock",
+    "path": "sprites/s_rock/s_rock.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Gun and Bullet",
-    "path": "folders/Objects/Gun and Bullet.yy",
+    "name": "Liquid",
+    "path": "folders/Objects/Liquid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEBullet",
+  "name": "o_rock",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3c166fb4-623c-4361-9d96-40543bb656f2","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3c166fb4-623c-4361-9d96-40543bb656f2","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},"LayerId":{"name":"a05defa4-99f5-4995-8b28-701eb29d050e","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyTrap","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},"resourceVersion":"1.0","name":"3c166fb4-623c-4361-9d96-40543bb656f2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"20f5c557-0bde-4657-8c0d-4094b27664d1","path":"sprites/s_rock/s_rock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"20f5c557-0bde-4657-8c0d-4094b27664d1","path":"sprites/s_rock/s_rock.yy",},"LayerId":{"name":"733d70e2-6274-49cb-9204-ef2e25964e87","path":"sprites/s_rock/s_rock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_rock","path":"sprites/s_rock/s_rock.yy",},"resourceVersion":"1.0","name":"20f5c557-0bde-4657-8c0d-4094b27664d1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemyTrap","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},
+    "spriteId": {"name":"s_rock","path":"sprites/s_rock/s_rock.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0d51ce1e-e212-4ec3-8a98-51e2f156e8b4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c166fb4-623c-4361-9d96-40543bb656f2","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8987d992-b4da-450e-a7b4-abf0675d287c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"20f5c557-0bde-4657-8c0d-4094b27664d1","path":"sprites/s_rock/s_rock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemyTrap","path":"sprites/sEnemyTrap/sEnemyTrap.yy",},
+    "parent": {"name":"s_rock","path":"sprites/s_rock/s_rock.yy",},
     "resourceVersion": "1.3",
-    "name": "sEnemyTrap",
+    "name": "s_rock",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a05defa4-99f5-4995-8b28-701eb29d050e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"733d70e2-6274-49cb-9204-ef2e25964e87","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Sprites/Enemy.yy",
+    "name": "Liquid",
+    "path": "folders/Sprites/Liquid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sEnemyTrap",
+  "name": "s_rock",
   "tags": [],
   "resourceType": "GMSprite",
 }
