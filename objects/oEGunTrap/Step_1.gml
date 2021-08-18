@@ -1,7 +1,7 @@
 /// @desc Gun and Shooting for Trap
 
-x = owner.x+0;
-y = owner.y+0;
+x = owner.x;
+y = owner.y;
 
 image_xscale = abs(owner.image_xscale);
 image_yscale = abs(owner.image_yscale);
