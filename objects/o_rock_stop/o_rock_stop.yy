@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "s_rock",
-    "path": "sprites/s_rock/s_rock.yy",
+    "name": "s_rock_stop",
+    "path": "sprites/s_rock_stop/s_rock_stop.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,11 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_rock_stop","path":"objects/o_rock_stop/o_rock_stop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +28,7 @@
     "path": "folders/Objects/Liquid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_rock",
+  "name": "o_rock_stop",
   "tags": [],
   "resourceType": "GMObject",
 }

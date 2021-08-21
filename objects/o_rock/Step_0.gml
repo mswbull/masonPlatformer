@@ -1,3 +1,5 @@
+/// @desc Rock Drop and Splash
+
 if (instance_exists(o_liquid_parent)) {
     with (o_liquid_parent) {
         var bounds = dyliquid_get_bounds();

@@ -23,6 +23,7 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":2,},
     {"id":{"name":"oPDead","path":"objects/oPDead/oPDead.yy",},"order":0,},
     {"id":{"name":"sPlayerD","path":"sprites/sPlayerD/sPlayerD.yy",},"order":2,},
+    {"id":{"name":"s_rock_stop","path":"sprites/s_rock_stop/s_rock_stop.yy",},"order":3,},
     {"id":{"name":"dyliquid_set_wave","path":"scripts/dyliquid_set_wave/dyliquid_set_wave.yy",},"order":16,},
     {"id":{"name":"sSaw","path":"sprites/sSaw/sSaw.yy",},"order":19,},
     {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":13,},
@@ -192,7 +193,9 @@
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":4,},
     {"id":{"name":"sAbilityJump","path":"sprites/sAbilityJump/sAbilityJump.yy",},"order":0,},
     {"id":{"name":"oDeadMaster","path":"objects/oDeadMaster/oDeadMaster.yy",},"order":1,},
+    {"id":{"name":"o_rock_stop","path":"objects/o_rock_stop/o_rock_stop.yy",},"order":6,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
+    {"id":{"name":"o_rock_spawner","path":"objects/o_rock_spawner/o_rock_spawner.yy",},"order":7,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":0,},
   ],
   "Options": [
