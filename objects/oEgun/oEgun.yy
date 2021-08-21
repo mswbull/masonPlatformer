@@ -31,7 +31,7 @@
     "path": "folders/Objects/Gun and Bullet.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEgun",
+  "name": "oEGun",
   "tags": [],
   "resourceType": "GMObject",
 }

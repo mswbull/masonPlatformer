@@ -30,7 +30,7 @@
     "path": "folders/Objects/Gun and Bullet.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEbullet",
+  "name": "oEBullet",
   "tags": [],
   "resourceType": "GMObject",
 }

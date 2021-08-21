@@ -20,7 +20,7 @@ if (instance_exists(oPlayer))
 				countdown = countdownrate;
 				audio_sound_pitch(snShot,choose(0.8,1.0,1.2));
 				audio_play_sound(snShot,5,false);
-				with (instance_create_layer(x,y,"Bullets",oEbullet))
+				with (instance_create_layer(x,y,"Bullets",oEBullet))
 				{
 					spd = 5; // Enemy Bullet Speed
 					direction = other.image_angle + random_range(-3,3);
