@@ -1,3 +1,3 @@
-/// @desc Destroy Instance
+	/// @desc Destroy Instance
 
 instance_destroy();
