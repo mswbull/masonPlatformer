@@ -51,7 +51,7 @@
   "option_windowsuap_team_family_platform_version": "10.0.14393.0",
   "option_windowsuap_team_family_platform_min_version": "10.0.14393.0",
   "option_windowsuap_xbox_live": false,
-  "option_windowsuap_xbox_live_creators_program": true,
+  "option_windowsuap_xbox_live_creators_program": false,
   "option_windowsuap_xbox_live_title_id": "Ninja Caves",
   "option_windowsuap_xbox_live_scid": "00000000-0000-0000-0000-000000000000",
   "resourceVersion": "1.0",
